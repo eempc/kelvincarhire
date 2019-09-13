@@ -8,6 +8,10 @@
     max-width: 1600px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -33,7 +37,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
+
+.right-section>* {}
 
 .phone {
     align-self: flex-end;
@@ -42,6 +49,7 @@ header {
 nav {
     display: flex;
     justify-content: flex-end;
+    height: 48px;
 }
 
 .dropdown-content {
@@ -54,6 +62,26 @@ nav {
     display: block;
 }
 
+.dropdown:hover .nav-button {
+    background-color: blue;
+}
+
 .dropdown-link {
     display: block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.dropdown {
+    width: 200px;
+
+    background-color: lightgray;
+    text-align: left;
+}
+
+.nav-button {
+    background-color: aquamarine;
+    padding: 10px;
+    line-height: 48px;
+    margin-left: 20px;
 }
