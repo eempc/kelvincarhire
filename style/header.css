@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    outline: 1px dotted black;
+    outline: 1px dotted transparent;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,14 +15,18 @@ a {
 
 header {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 33% 67%;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(107, 107, 107) 100%);
 }
 
-.company-header {
-    line-height: 100px;
+h1 {
+    margin: 0px;
+    color: white;
+    text-align: center;
 }
 
 .main-logo {
+    margin: 10px;
     width: 100px;
     height: 100px;
 }
@@ -31,13 +35,14 @@ header {
     grid-column: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .right-section {
     grid-column: 2;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -45,6 +50,12 @@ header {
 
 .phone {
     align-self: flex-end;
+    color: white;
+    margin: 4px;
+}
+
+.contact-button {
+    color: white;
 }
 
 nav {
@@ -64,25 +75,27 @@ nav {
 }
 
 .dropdown:hover .nav-button {
-    background-color: blue;
+    background-color: lightgrey;
+    border-bottom: 2px solid black;
+    transition: 1s ease-in-out;
 }
 
 .dropdown-link {
     display: block;
-    padding: 10px;
-    margin: 20px;
+    padding: 0px 10px;
+    margin: 0px 20px;
+    height: 48px;
+    line-height: 48px;
 }
 
 .dropdown {
-
-
-    background-color: lightgray;
     text-align: left;
 }
 
 .nav-button {
-    background-color: aquamarine;
+    color: white;
     padding: 10px;
     line-height: 48px;
     margin: 20px;
+    border-bottom: 2px solid transparent;
 }

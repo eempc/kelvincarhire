@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="themes.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/themes.css">
+    <link rel="stylesheet" type="text/css" href="style/home.css">
 </head>
 
 <body>
     <div class="container">
         <header>
             <div class="left-section">
-                <img src="" class="main-logo">
-                <div class="company-header">Kelvin Car Hire</div>
+                <img src="images/logo.png" class="main-logo">
+                <h1 class="company-header">Kelvin Car Hire</h1>
             </div>
             <div class="right-section">
                 <div class="phone">
@@ -26,9 +27,7 @@
                     <div class="dropdown">
                         <a class="nav-button" href="">Home</a>
                         <div class="dropdown-content">
-                            <a href="" class="dropdown-link">Link 1</a>
-                            <a href="" class="dropdown-link">Link 2</a>
-                            <a href="" class="dropdown-link">Link 3</a>
+                            <a href="" class="dropdown-link">Book</a>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -43,9 +42,9 @@
                     <div class="dropdown">
                         <a class="nav-button" href="">About</a>
                         <div class="dropdown-content">
-                            <a href="" class="dropdown-link">Terms and conditions</a>
+                            <a href="" class="dropdown-link">Terms</a>
                             <a href="" class="dropdown-link">FAQ</a>
-                            <a href="" class="dropdown-link">Privacy policy</a>
+                            <a href="" class="dropdown-link">Privacy</a>
                         </div>
                     </div>
                 </nav>
@@ -53,13 +52,39 @@
         </header>
 
         <main>
+            <h2>Book now!</h2>
+            <div class="booking-box box-style-1">
+                <form>
+                    Location:
+                    <select name="locations">
+                        <option value="Glasgow">Glasgow</option>
+                        <option value="Edinburgh">Edinburgh</option>
+                        <option value="Stirling">Stirling</option>
+                    </select>
+                    <br>
+                    Start date:
+                    <input id="start-date" type="date" name="start-date">
+                    Start time:
+                    <input id="start-time" type="time" min="08:00" max="18:00" value="09:00">
+                    <br>
+                    End date:
+                    <input id="end-date" type="date" name="end-date">
+                    End time:
+                    <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
+                    <br>
+                    <input id="submit-button" type="submit" value="Submit">
+                </form>
+            </div>
+            <div>
 
+            </div>
         </main>
 
         <footer>
 
         </footer>
     </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
