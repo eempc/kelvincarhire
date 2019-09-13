@@ -5,7 +5,8 @@
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 a {
@@ -69,11 +70,11 @@ nav {
 .dropdown-link {
     display: block;
     padding: 10px;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .dropdown {
-    width: 200px;
+
 
     background-color: lightgray;
     text-align: left;
@@ -83,5 +84,5 @@ nav {
     background-color: aquamarine;
     padding: 10px;
     line-height: 48px;
-    margin-left: 20px;
+    margin: 20px;
 }
