@@ -1,8 +1,18 @@
 h2 {
+text-align: center;
+}
 
+h3 {
+    text-align: center;
 }
 
 .box-style-1 {
+    padding: 20px;
+    outline: 1px solid black;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.box-style-2 {
     padding: 20px;
     outline: 1px solid black;
     box-shadow: 1px 1px 1px grey;

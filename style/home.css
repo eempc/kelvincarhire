@@ -1,0 +1,22 @@
+.time::before {
+    content: "\1f551";
+}
+
+.calendar::before {
+    content: "\1f4c5";
+}
+
+.container-features * {
+    outline: 1px solid black;
+}
+
+.container-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.feature-box {
+    width: 33%;
+}
+

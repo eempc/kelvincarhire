@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style/header.css">
     <link rel="stylesheet" type="text/css" href="style/themes.css">
     <link rel="stylesheet" type="text/css" href="style/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -55,28 +56,47 @@
             <h2>Book now!</h2>
             <div class="booking-box box-style-1">
                 <form>
-                    Location:
+                    <i class="material-icons">location_on</i> Location:
                     <select name="locations">
                         <option value="Glasgow">Glasgow</option>
                         <option value="Edinburgh">Edinburgh</option>
                         <option value="Stirling">Stirling</option>
                     </select>
                     <br>
-                    Start date:
+                    <span class="calendar"> Start date:</span>
                     <input id="start-date" type="date" name="start-date">
-                    Start time:
+                    <span class="time"> Start time:</span>
                     <input id="start-time" type="time" min="08:00" max="18:00" value="09:00">
                     <br>
-                    End date:
-                    <input id="end-date" type="date" name="end-date">
-                    End time:
-                    <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
-                    <br>
-                    <input id="submit-button" type="submit" value="Submit">
+                    <End class="calendar"> End date:</span>
+                        <input id="end-date" type="date" name="end-date">
+                        <span class="time"> End time:</span>
+                        <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
+                        <br>
+                        <input type="checkbox" name="small" value="small">Small cars
+                        <input type="checkbox" name="medium" value="medium">Medium cars
+                        <input type="checkbox" name="large" value="large">Large cars
+                        <input type="checkbox" name="van" value="van">Vans
+                        <br>
+                        <input id="submit-button" type="submit" value="Book">
                 </form>
             </div>
             <div>
+                <h2>&#10003; 100% Satisfaction guaranteed!</h2>
+            </div>
+            <div class="container-features">
+                <div class="box-style-2 feature-box">
+                    <h3>Insurance included</h3>
+                    <div>
 
+                    </div>
+                </div>
+                <div class="box-style-2 feature-box">
+                    <h3>Huge variety</h3>
+                </div>
+                <div class="box-style-2 feature-box">
+                    <h3>Generous mileage</h3>
+                </div>
             </div>
         </main>
 
