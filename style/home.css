@@ -1,9 +1,9 @@
 .time::before {
-    content: "\1f551";
+    content: "\1f551\2003";
 }
 
 .calendar::before {
-    content: "\1f4c5";
+    content: "\1f4c5\2003";
 }
 
 .container-features * {
@@ -27,7 +27,6 @@
 
 .circle {
     margin: 2em 0;
-background-color: aqua;
     position: relative;
     display: block;
     text-align: center;
@@ -61,4 +60,13 @@ background-color: aqua;
     display: table-cell;
     padding: 1em;
     vertical-align: middle;
+}
+
+.circle-content > p {
+    margin: 6px;
+}
+
+.circle-content > p:before {
+    content: "\2605\2003";
+    color: yellow;
 }
