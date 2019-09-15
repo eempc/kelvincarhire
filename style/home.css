@@ -17,24 +17,48 @@
 }
 
 .feature-box {
-    width: 33%;
+    width: 25%;
     text-align: center;
 }
 
+.feature-box * {
+    outline: 1px solid black;
+}
+
 .circle {
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
-    padding-top: 100%;
-    border: 4px solid black;
+    margin: 2em 0;
+background-color: aqua;
     position: relative;
-
+    display: block;
+    text-align: center;
 }
 
-.circle > p {
+.circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: grey;
+    content: "";
+}
+
+.circle-inner {
     position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
+.circle-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.circle-content {
+    display: table-cell;
+    padding: 1em;
+    vertical-align: middle;
+}
