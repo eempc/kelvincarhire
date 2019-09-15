@@ -100,3 +100,17 @@ nav {
     margin: 20px;
     border-bottom: 2px solid transparent;
 }
+
+#cookie {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px 20px;
+
+}
+
+#cookie > * {
+    display: inline-block;
+}
