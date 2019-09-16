@@ -13,7 +13,7 @@ function cookieDisappear() {
     //document.cookie = "kelvincookie=; expires=Tue, 19 Sep 2019 12:00:00 UTC; path=/;";
     //document.cookie = "kelvincookie2=5; expires=Tue, 19 Sep 2019 12:00:00 UTC; path=/;";
     //alert(document.cookie);
-    alert(getCookieValue("kelvincookie2"));
+    alert(getCookieValue("kelvincookie"));
     
     const cookieArea = document.getElementById('cookie');
     cookieArea.style.bottom = "-50px";
@@ -21,9 +21,10 @@ function cookieDisappear() {
 
 // This assumes that cookies are set as follows: key=value, with no space before or after the = sign
 function getCookieValue(cookieName) {
-    let decodedCookie = decodeURIComponent(document.cookie);
-    let keyValuesSplit = decodedCookie.split(';');
+    // Get the cookie in its entirety then use the inbuilt method to decode the cookie then split the cookie string by ;
+    let keyValuesSplit = decodeURIComponent(document.cookie).split(';');
 
+    // Simple search method, but a regex method may also be possible in lieu of this methods
     for (let i = 0; i < keyValuesSplit.length; i++) {
         let keyValuePair = keyValuesSplit[i].trim();
         if (keyValuePair.indexOf(cookieName) == 0) {
