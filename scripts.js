@@ -22,7 +22,6 @@ function cookieDisappear() {
     localStorage.expiryDate = expiry;
     alert(localStorage.expiryDate);
 
-    
     const cookieArea = document.getElementById('cookie');
     cookieArea.style.bottom = "-100px";
 }
@@ -45,15 +44,23 @@ function getCookieValue(cookieName) {
 
 // Toggle between light and dark styles
 
-function toggleCSS() {
-    const lightStyle = document.getElementById('light-styles').disabled;
-    const darkStyle = document.getElementById('dark-style').disabled;
+let dark = localStorage.darkMode;
 
-    lightStyle = !lightStyle;
-    darkStyle = !darkStyle;
+function toggleCSS() {
+    const lightSheet = document.getElementById('light-styles');
+    const darkSheet = document.getElementById('dark-style');
+
+    lightSheet.disabled = !lightSheet.disabled;
+    darkSheet.disabled = !darkSheet.disabled;
+
+    if (darkSheet.disabled) {
+        localStorage.darkMode = false;
+    } else {
+        localStorage.darkMode = true;
+    }
 }
 
-if (localStorage.darkMode) {
+if (dark) {
     document.getElementById('light-styles').disabled = true;
     document.getElementById('dark-style').disabled = false;
 } else {
