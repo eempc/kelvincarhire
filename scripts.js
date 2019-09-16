@@ -43,4 +43,21 @@ function getCookieValue(cookieName) {
     return "";
 }
 
-// Local Web storage methods supercede?
+/*/ Toggle between light and dark styles
+
+function toggleCSS() {
+    const lightStyle = document.getElementById('light-styles').disabled;
+    const darkStyle = document.getElementById('dark-style').disabled;
+
+    lightStyle = !lightStyle;
+    darkStyle = !darkStyle;
+}
+
+if (localStorage.darkMode) {
+    document.getElementById('light-styles').disabled = true;
+    document.getElementById('dark-style').disabled = false;
+} else {
+    document.getElementById('light-styles').disabled = false;
+    document.getElementById('dark-style').disabled = true;
+}
+*/
