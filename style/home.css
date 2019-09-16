@@ -12,8 +12,21 @@
 
 .container-features {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.booking-box {
+    width: 50%;
+
 }
 
 .feature-box {
@@ -22,7 +35,7 @@
 }
 
 .feature-box * {
-    outline: 1px solid black;
+
 }
 
 .circle {
@@ -30,6 +43,7 @@
     position: relative;
     display: block;
     text-align: center;
+    margin: auto;
 }
 
 .circle:after {
@@ -48,12 +62,14 @@
     left: 0;
     width: 100%;
     height: 100%;
+
 }
 
 .circle-wrapper {
     display: table;
     width: 100%;
     height: 100%;
+
 }
 
 .circle-content {
@@ -69,4 +85,26 @@
 .circle-content > p:before {
     content: "\2605\2003";
     color: yellow;
+}
+
+#cookie {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: brown;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .feature-box {
+        width: 75%;
+    }
+
+    .circle  {
+        width: 66%;
+    }
 }

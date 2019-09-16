@@ -6,5 +6,5 @@ endDate.valueAsDate = new Date();
 
 function cookieDisappear() {
     const cookieArea = document.getElementById('cookie');
-    cookieArea.style.display = "none";
+    cookieArea.style.bottom = "-50px";
 }

@@ -14,38 +14,50 @@
 
 <body>
     <div class="container">
-        <header>
+        <header class="background-dark-1">
             <div class="left-section">
                 <img src="images/logo.png" class="main-logo">
                 <h1 class="company-header">Kelvin Car Hire</h1>
             </div>
             <div class="right-section">
                 <div class="phone">
-                    Call us on 0141-555-5555
-                    <span><a href="" class="contact-button">Contact</a></span>
+                    <p>&#x260F; Call us on 0141-555-5555 <a href="" class="contact-button">Contact</a></p>
                 </div>
                 <nav>
-                    <div class="dropdown">
-                        <a class="nav-button" href="">Home</a>
-                        <div class="dropdown-content">
-                            <a href="" class="dropdown-link">Book</a>
+                    <div class="standard-nav">
+                        <div class="dropdown">
+                            <a class="nav-button" href="">Home</a>
+                            <div class="dropdown-content">
+                                <a href="" class="dropdown-link">Book</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-button" href="Cars/vehicles.html">Vehicles</a>
+                            <div class="dropdown-content">
+                                <a href="Cars/smallcars.html" class="dropdown-link">Small Cars</a>
+                                <a href="Cars/mediumcars.html" class="dropdown-link">Medium Cars</a>
+                                <a href="Cars/largecars.html" class="dropdown-link">Large Cars</a>
+                                <a href="Cars/vans.html" class="dropdown-link">Vans</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-button" href="">About</a>
+                            <div class="dropdown-content">
+                                <a href="" class="dropdown-link">Terms</a>
+                                <a href="" class="dropdown-link">FAQ</a>
+                                <a href="" class="dropdown-link">Privacy</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="dropdown">
-                        <a class="nav-button" href="Cars/vehicles.html">Vehicles</a>
-                        <div class="dropdown-content">
-                            <a href="Cars/smallcars.html" class="dropdown-link">Small Cars</a>
-                            <a href="Cars/mediumcars.html" class="dropdown-link">Medium Cars</a>
-                            <a href="Cars/largecars.html" class="dropdown-link">Large Cars</a>
-                            <a href="Cars/vans.html" class="dropdown-link">Vans</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <a class="nav-button" href="">About</a>
-                        <div class="dropdown-content">
-                            <a href="" class="dropdown-link">Terms</a>
-                            <a href="" class="dropdown-link">FAQ</a>
-                            <a href="" class="dropdown-link">Privacy</a>
+                    <div class="mobile-nav">
+                        <div class="dropdown">
+                            <a class="nav-button">&#x2630;</a>
+                            <div class="dropdown-content">
+                                <a href="Cars/smallcars.html" class="dropdown-link">Book</a>
+                                <a href="Cars/mediumcars.html" class="dropdown-link">Vehicles</a>
+                                <a href="Cars/largecars.html" class="dropdown-link">About</a>
+                                <a href="Cars/vans.html" class="dropdown-link">Privacy</a>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -71,9 +83,9 @@
                     <br>
                     <label for="end-date" class="calendar">End date:</span>
                         <input id="end-date" type="date" name="end-date">
-                    <label for="end-time" class="time">End time:</label>
+                        <label for="end-time" class="time">End time:</label>
                         <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
-                    <br>
+                        <br>
                         <input type="checkbox" name="small" value="small">Small cars
                         <input type="checkbox" name="medium" value="medium">Medium cars
                         <input type="checkbox" name="large" value="large">Large cars
@@ -82,9 +94,9 @@
                         <input id="submit-button" type="submit" value="Book">
                 </form>
             </section>
-            <div>
-                <h2>&#10003; 100% Satisfaction guaranteed!</h2>
-            </div>
+
+            <h2>&#10003; 100% Satisfaction guaranteed!</h2>
+
             <section class="container-features">
                 <div class="box-style-2 feature-box">
                     <h3>&#10003; Insurance included</h3>
@@ -131,15 +143,17 @@
             </section>
         </main>
 
-        <footer>
-
+        <footer class="background-dark-1">
+            test<br><br><br><br><br><br>
         </footer>
-        <section id="cookie">
-            <p>We use cookies! Click <a href="">here</a> for more information.</p>
-            <button class="accept-cookie" onclick="cookieDisappear()">Accept</button>
-        </section>
+
+
+        <script src="scripts.js"></script>
     </div>
-    <script src="scripts.js"></script>
+            <section id="cookie">
+                <span>We use cookies! Click <a href="">here</a> for more information.</span>
+                <button class="accept-cookie" onclick="cookieDisappear()">Accept</button>
+            </section>
 </body>
 
 </html>
