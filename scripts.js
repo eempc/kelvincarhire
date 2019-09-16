@@ -43,7 +43,7 @@ function getCookieValue(cookieName) {
     return "";
 }
 
-/*/ Toggle between light and dark styles
+// Toggle between light and dark styles
 
 function toggleCSS() {
     const lightStyle = document.getElementById('light-styles').disabled;
@@ -60,4 +60,4 @@ if (localStorage.darkMode) {
     document.getElementById('light-styles').disabled = false;
     document.getElementById('dark-style').disabled = true;
 }
-*/
+
