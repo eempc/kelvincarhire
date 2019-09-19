@@ -108,11 +108,4 @@ main {
         width: 66%;
     }
 
-    header {
-        transform: scale(0.7);
-    }
-
-    .phone {
-        display: none;
-    }
 }

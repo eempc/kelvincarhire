@@ -27,8 +27,8 @@ h1 {
 
 .main-logo {
     margin: 10px;
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .left-section {
@@ -143,9 +143,20 @@ footer {
 
     header {
         grid-template-columns: 60% 40%;
+
     }
 
     .right-section {
         justify-content: center;
+    }
+
+    .main-logo {
+        margin: 5px;
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .phone {
+        display: none;
     }
 }
