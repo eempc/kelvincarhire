@@ -68,3 +68,11 @@ if (dark) {
     document.getElementById('dark-style').disabled = true;
 }
 
+
+
+// Toggle Accordion
+
+function toggleAccordion() {
+    const accordionStatus = document.getElementsByClassName("accordion-menu").style.display;
+    console.log(accordionStatus);
+}
