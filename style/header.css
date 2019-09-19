@@ -43,7 +43,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .right-section>* {}
@@ -63,13 +62,14 @@ h1 {
 }
 
 nav {
-
+    
 }
 
 .standard-nav {
     display: flex;
     justify-content: flex-end;
     height: 48px;
+    align-items: center;
 }
 
 .dropdown {
@@ -143,5 +143,9 @@ footer {
 
     header {
         grid-template-columns: 60% 40%;
+    }
+
+    .right-section {
+        justify-content: center;
     }
 }
