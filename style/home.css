@@ -32,6 +32,7 @@ main {
 .feature-box {
     width: 25%;
     text-align: center;
+    padding: 20px;
 }
 
 .feature-box * {

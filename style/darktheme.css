@@ -1,6 +1,9 @@
-.hidden {
-    display: none;
-}
+/* Theme CSS deals only with: text-colour, background colours, border style */
+
+
+
+
+
 
 h2 {
 text-align: center;
@@ -11,18 +14,30 @@ h3 {
 }
 
 .box-style-1 {
-    padding: 20px;
+
     outline: 1px solid black;
     box-shadow: 1px 1px 1px grey;
 }
 
 .box-style-2 {
-    padding: 20px;
+
     outline: 1px solid black;
     box-shadow: 1px 1px 1px grey;
+
 }
 
 .button-style-1 {
+    background-color: grey;
+    border-radius: 5%;
+    padding: 4px 6px;
+    margin: 0px 4px;
+}
+
+.button-style-2 {
+    border-radius: 5%;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-weight: bold;
 
 }
 

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="style/header.css">
-    <link rel="stylesheet" type="text/css" href="style/themes.css">
+    <link rel="stylesheet" type="text/css" href="style/darktheme.css">
     <link rel="stylesheet" type="text/css" href="style/home.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -15,140 +15,140 @@
 
 <body>
     <div class="container"></div>
-        <header class="background-dark-1" id="header">
-            <div class="left-section">
-                <img src="images/logo.png" class="main-logo">
-                <h1 class="company-header">Kelvin Car Hire</h1>
+    <header class="background-dark-1" id="header">
+        <div class="left-section">
+            <img src="images/logo.png" class="main-logo">
+            <h1 class="company-header">Kelvin Car Hire</h1>
+        </div>
+        <div class="right-section">
+            <div class="phone">
+                <p>&#x260F; Call us on 0141-555-5555 | <a href="" class="contact-button button-style-1">Contact</a></p>
             </div>
-            <div class="right-section">
-                <div class="phone">
-                    <p>&#x260F; Call us on 0141-555-5555 | <a href="" class="contact-button">Contact</a></p>
-                </div>
-                <nav>
-                    <div class="standard-nav">
-                        <div class="dropdown">
-                            <a class="nav-button" href="">Home</a>
-                            <div class="dropdown-content">
-                                <a href="" class="dropdown-link">Book</a>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <a class="nav-button" href="Cars/vehicles.html">Vehicles</a>
-                            <div class="dropdown-content">
-                                <a href="Cars/smallcars.html" class="dropdown-link">Small Cars</a>
-                                <a href="Cars/mediumcars.html" class="dropdown-link">Medium Cars</a>
-                                <a href="Cars/largecars.html" class="dropdown-link">Large Cars</a>
-                                <a href="Cars/vans.html" class="dropdown-link">Vans</a>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <a class="nav-button" href="">About</a>
-                            <div class="dropdown-content">
-                                <a href="" class="dropdown-link">Privacy</a>
-                            </div>
+            <nav>
+                <div class="standard-nav">
+                    <div class="dropdown">
+                        <a class="nav-button" href="">Home</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button" href="">Book</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button" href="Cars/vehicles.html">Vehicles</a>
+                        <div class="dropdown-content">
+                            <a href="Cars/smallcars.html" class="dropdown-link">Small Cars</a>
+                            <a href="Cars/mediumcars.html" class="dropdown-link">Medium Cars</a>
+                            <a href="Cars/largecars.html" class="dropdown-link">Large Cars</a>
+                            <a href="Cars/vans.html" class="dropdown-link">Vans</a>
                         </div>
                     </div>
-                    <button class="mobile-nav" onclick="toggleAccordion()">&#x2630;</button>
-                </nav>
-            </div>
-        </header>
+                    <div class="dropdown">
+                        <a class="nav-button" href="">About</a>
+                        <div class="dropdown-content">
+                            <a href="" class="dropdown-link">Privacy</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="mobile-nav" onclick="toggleAccordion()">&#x2630;</button>
+            </nav>
+        </div>
+    </header>
 
-        <section class="accordion-menu" style="display: none; height: 0;">
-            <a href="" class="accordion-link nav-button">Home</a>
-            <a href="" class="accordion-link nav-button">Cars</a>
-            <a href="" class="accordion-link nav-button">About</a>
+    <section class="accordion-menu" style="display: none; height: 0;">
+        <a href="" class="accordion-link nav-button">Home</a>
+        <a href="" class="accordion-link nav-button">Cars</a>
+        <a href="" class="accordion-link nav-button">About</a>
+    </section>
+
+    <main>
+        <h2>Book now!</h2>
+        <section class="booking-box box-style-1">
+            <form>
+                <label for="locations-dropdown"><i class="material-icons">location_on</i> Location:</label>
+                <select name="locations" id="locations-dropdown">
+                    <option value="Glasgow">Glasgow</option>
+                    <option value="Edinburgh">Edinburgh</option>
+                    <option value="Stirling">Stirling</option>
+                </select>
+                <br>
+                <label for="start-date" class="calendar">Start date:</label>
+                <input id="start-date" type="date" name="start-date">
+
+                <label for="start-time" class="time">Start time:</label>
+                <input id="start-time" type="time" min="08:00" max="18:00" value="09:00">
+                <br>
+                <label for="end-date" class="calendar">End date:</span>
+                <input id="end-date" type="date" name="end-date">
+                <label for="end-time" class="time">End time:</label>
+                <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
+                <br>
+                <input type="checkbox" name="small" value="small">Small cars
+                <input type="checkbox" name="medium" value="medium">Medium cars
+                <input type="checkbox" name="large" value="large">Large cars
+                <input type="checkbox" name="van" value="van">Vans
+                <br>
+                <input id="submit-button" class="button-style-2" type="submit" value="Book">
+            </form>
         </section>
 
-        <main>
-            <h2>Book now!</h2>
-            <section class="booking-box box-style-1">
-                <form>
-                    <label for="locations-dropdown"><i class="material-icons">location_on</i> Location:</label>
-                    <select name="locations" id="locations-dropdown">
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Stirling">Stirling</option>
-                    </select>
-                    <br>
-                    <label for="start-date" class="calendar">Start date:</label>
-                    <input id="start-date" type="date" name="start-date">
+        <h2>&#10003; 100% Satisfaction guaranteed!</h2>
 
-                    <label for="start-time" class="time">Start time:</label>
-                    <input id="start-time" type="time" min="08:00" max="18:00" value="09:00">
-                    <br>
-                    <label for="end-date" class="calendar">End date:</span>
-                        <input id="end-date" type="date" name="end-date">
-                        <label for="end-time" class="time">End time:</label>
-                        <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
-                        <br>
-                        <input type="checkbox" name="small" value="small">Small cars
-                        <input type="checkbox" name="medium" value="medium">Medium cars
-                        <input type="checkbox" name="large" value="large">Large cars
-                        <input type="checkbox" name="van" value="van">Vans
-                        <br>
-                        <input id="submit-button" type="submit" value="Book">
-                </form>
-            </section>
-
-            <h2>&#10003; 100% Satisfaction guaranteed!</h2>
-
-            <section class="container-features">
-                <div class="box-style-2 feature-box">
-                    <h3>&#10003; Insurance included</h3>
-                    <div class="circle">
-                        <div class="circle-inner">
-                            <div class="circle-wrapper">
-                                <div class="circle-content">
-                                    <p>Example</p>
-                                    <p>Example</p>
-                                    <p>Example</p>
-                                </div>
+        <section class="container-features">
+            <div class="box-style-2 feature-box">
+                <h3>&#10003; Insurance included</h3>
+                <div class="circle">
+                    <div class="circle-inner">
+                        <div class="circle-wrapper">
+                            <div class="circle-content">
+                                <p>Example</p>
+                                <p>Example</p>
+                                <p>Example</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="box-style-2 feature-box">
-                    <h3>&#10003; Huge variety</h3>
-                    <div class="circle">
-                        <div class="circle-inner">
-                            <div class="circle-wrapper">
-                                <div class="circle-content">
-                                    <p>Example</p>
-                                    <p>Example</p>
-                                    <p>Example</p>
-                                </div>
+            </div>
+            <div class="box-style-2 feature-box">
+                <h3>&#10003; Huge variety</h3>
+                <div class="circle">
+                    <div class="circle-inner">
+                        <div class="circle-wrapper">
+                            <div class="circle-content">
+                                <p>Example</p>
+                                <p>Example</p>
+                                <p>Example</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="box-style-2 feature-box">
-                    <h3>&#10003; Generous mileage</h3>
-                    <div class="circle">
-                        <div class="circle-inner">
-                            <div class="circle-wrapper">
-                                <div class="circle-content">
-                                    <p>Example</p>
-                                    <p>Example</p>
-                                    <p>Example</p>
-                                </div>
+            </div>
+            <div class="box-style-2 feature-box">
+                <h3>&#10003; Generous mileage</h3>
+                <div class="circle">
+                    <div class="circle-inner">
+                        <div class="circle-wrapper">
+                            <div class="circle-content">
+                                <p>Example</p>
+                                <p>Example</p>
+                                <p>Example</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
-        <footer class="background-dark-1">
-            test<br><br><br><br><br><br>
-        </footer>
+    <footer class="background-dark-1">
+        test<br><br><br><br><br><br>
+    </footer>
 
 
-        <script src="scripts.js"></script>
+    <script src="scripts.js"></script>
     </div>
-            <section id="cookie">
-                <span>We use cookies! Click <a href="">here</a> for more information.</span>
-                <button class="accept-cookie" onclick="cookieDisappear()">Accept</button>
-            </section>
+    <section id="cookie">
+        <span>We use cookies! Click <a href="">here</a> for more information.</span>
+        <button class="accept-cookie" onclick="cookieDisappear()">Accept</button>
+    </section>
 </body>
 
 </html>

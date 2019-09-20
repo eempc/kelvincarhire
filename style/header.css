@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    outline: 1px dotted white;
+    outline: 1px dotted transparent;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -90,15 +90,16 @@ nav {
 }
 
 .dropdown {
-    width: 25%;
-    text-align: centre;
+
+
+
 }
 
 .nav-button {
     color: white;
     line-height: 48px;
-    padding: 14px 20px;
-
+    padding: 13px 20px;
+    transition: 1s ease-in-out;
     border-bottom: 2px solid transparent;
 
 }
@@ -117,7 +118,7 @@ nav {
 .dropdown:hover .nav-button {
     background-color: lightgrey;
     border-bottom: 2px solid black;
-    transition: 1s ease-in-out;
+
 }
 
 .dropdown-link {
@@ -126,12 +127,11 @@ nav {
     margin: 0px 0px;
     background-color: grey;
     line-height: 48px;
+    transition: 1s ease-in-out;
 }
 
 .dropdown-link:hover {
-        background-color: red;
-
-        transition: 1s ease-in-out;
+    background-color: red;
 }
 
 
