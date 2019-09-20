@@ -143,10 +143,7 @@ nav {
 
 .accordion-link {
     display: block;
-}
-
-.mobile-nav:hover .accordion-menu {
-
+    background-color: black;
 }
 
 /* Footer */

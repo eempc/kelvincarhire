@@ -77,6 +77,13 @@ function toggleAccordion() {
     const acc = document.querySelector('.accordion-menu');
     const displayStatus = acc.style.display;
     //console.log(displayStatus);
-    if (displayStatus == 'none') acc.style.display = 'block';
-    if (displayStatus != 'none') acc.style.display = 'none';
+    if (displayStatus == 'none') {
+        acc.style.display = 'block';
+        acc.style.height = '100%';
+    }
+
+    if (displayStatus != 'none') {
+        acc.style.display = 'none';
+        acc.style.height = '0';
+    }
 }
