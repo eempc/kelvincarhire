@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
 }
 
 main {
@@ -99,9 +99,17 @@ main {
     transition: 0.5s ease-in-out;
 }
 
+@media (max-width: 992px) {
+
+}
+
 @media (max-width: 600px) {
+    .booking-box {
+        width: 90%;
+    }
+
     .feature-box {
-        width: 75%;
+        width: 40%;
     }
 
     .circle  {

@@ -42,7 +42,7 @@ function getCookieValue(cookieName) {
     return "";
 }
 
-// Toggle between light and dark styles
+/*/ Toggle between light and dark styles
 
 let dark = localStorage.darkMode;
 
@@ -67,12 +67,16 @@ if (dark) {
     document.getElementById('light-styles').disabled = false;
     document.getElementById('dark-style').disabled = true;
 }
+*/
 
 
 
 // Toggle Accordion
 
 function toggleAccordion() {
-    const accordionStatus = document.getElementsByClassName("accordion-menu").style.display;
-    console.log(accordionStatus);
+    const acc = document.querySelector('.accordion-menu');
+    const displayStatus = acc.style.display;
+    //console.log(displayStatus);
+    if (displayStatus == 'none') acc.style.display = 'block';
+    if (displayStatus != 'none') acc.style.display = 'none';
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style/header.css">
     <link rel="stylesheet" type="text/css" href="style/themes.css">
     <link rel="stylesheet" type="text/css" href="style/home.css">
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
@@ -48,15 +48,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mobile-nav" onclick="">
-                            <p>&#x2630;</p>
-                            
+                    <button class="mobile-nav" onclick="toggleAccordion()">
+                            &#x2630;
 
-                    </div>
+
+                    </button>
                 </nav>
             </div>
-
         </header>
+
+        <section class="accordion-menu" style="display: none;">
+            <a href="" class="accordion-link">Link</a>
+            <a href="" class="accordion-link">Link</a>
+            <a href="" class="accordion-link">Link</a>
+        </section>
 
         <main>
             <h2>Book now!</h2>
