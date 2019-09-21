@@ -129,3 +129,6 @@ function validateFields() {
         //phoneMessage.innerHTML = "Okay";
     }
 }
+
+// Google Map
+
