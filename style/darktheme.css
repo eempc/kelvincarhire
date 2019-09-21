@@ -30,7 +30,8 @@ h3 {
     background-color: grey;
     border-radius: 5%;
     padding: 4px 6px;
-    margin: 0px 4px;
+    color: white;
+    box-shadow: 1px 1px 1px black;
 }
 
 .button-style-2 {
