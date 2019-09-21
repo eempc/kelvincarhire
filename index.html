@@ -9,12 +9,13 @@
     <link rel="stylesheet" type="text/css" href="style/header.css">
     <link rel="stylesheet" type="text/css" href="style/darktheme.css">
     <link rel="stylesheet" type="text/css" href="style/home.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-    <div class="container"></div>
+
     <header class="background-dark-1" id="header">
         <div class="left-section">
             <img src="images/logo.png" class="main-logo">
@@ -42,7 +43,7 @@
                         </div>
                     </div>
                     <div class="dropdown">
-                        <a class="nav-button" href="">Contact</a>
+                        <a class="nav-button" href="contact.html">Contact</a>
                     </div>
                 </div>
                 <button class="mobile-nav" onclick="toggleAccordion()">&#x2630;</button>
@@ -74,16 +75,16 @@
                 <input id="start-time" type="time" min="08:00" max="18:00" value="09:00">
                 <br>
                 <label for="end-date" class="calendar">End date:</span>
-                <input id="end-date" type="date" name="end-date">
-                <label for="end-time" class="time">End time:</label>
-                <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
-                <br>
-                <input type="checkbox" name="small" value="small">Small cars
-                <input type="checkbox" name="medium" value="medium">Medium cars
-                <input type="checkbox" name="large" value="large">Large cars
-                <input type="checkbox" name="van" value="van">Vans
-                <br>
-                <input id="submit-button" class="button-style-2" type="submit" value="Book">
+                    <input id="end-date" type="date" name="end-date">
+                    <label for="end-time" class="time">End time:</label>
+                    <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
+                    <br>
+                    <input type="checkbox" name="small" value="small">Small cars
+                    <input type="checkbox" name="medium" value="medium">Medium cars
+                    <input type="checkbox" name="large" value="large">Large cars
+                    <input type="checkbox" name="van" value="van">Vans
+                    <br>
+                    <input id="submit-button" class="button-style-2" type="submit" value="Book">
             </form>
         </section>
 
@@ -141,7 +142,7 @@
 
 
     <script src="scripts.js"></script>
-    </div>
+
     <section id="cookie">
         <span>We use cookies! Click <a href="">here</a> for more information.</span>
         <button class="accept-cookie" onclick="cookieDisappear()">Accept</button>

@@ -1,0 +1,66 @@
+/* form */
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.contact-section {
+    width: 45%;
+    margin: auto;
+}
+
+input {
+    height: 2em;
+    width: 50%;
+    padding: 0px 10px;
+}
+
+#messagebox {
+    width: 100%;
+    height: 200px;
+    padding: 5px 10px;
+}
+
+button {
+    align-self: center;
+}
+
+form>p {
+    color: red;
+    font-size: 0.7em;
+}
+
+@media (max-width: 992px) {
+    input {
+        width: 100%;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    .contact-section {
+        width: 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    form, .contact-section {
+        width: 80%;
+        text-align: center;
+    }
+
+}
