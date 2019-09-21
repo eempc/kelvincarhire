@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/darktheme.css">
+    <link rel="stylesheet" type="text/css" href="style/vehicles.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+</head>
+
+<body>
+    <header class="background-dark-1" id="header">
+        <div class="left-section">
+            <img src="images/logo.png" class="main-logo">
+            <h1 class="company-header">Kelvin Car Hire</h1>
+        </div>
+        <div class="right-section">
+            <div class="phone">
+                <p>&#x260F; Call us on 0141-555-5555 | <a href="contact.html" class="contact-button button-style-1">Contact</a></p>
+            </div>
+            <nav>
+                <div class="standard-nav">
+                    <div class="dropdown">
+                        <a class="nav-button" href="index.html">Home</a>
+                    </div>
+                    <div class="dropdown hidden">
+                        <a class="nav-button" href="book.html">Book</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button current-page" href="vehicles.html">Vehicles</a>
+                        <div class="dropdown-content">
+                            <a href="Cars/cars-small.html" class="dropdown-link">Small Cars</a>
+                            <a href="Cars/cars-medium.html" class="dropdown-link">Medium Cars</a>
+                            <a href="Cars/cars-large.html" class="dropdown-link">Large Cars</a>
+                            <a href="Cars/vans.html" class="dropdown-link">Vans</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button" href="contact.html">Contact</a>
+                    </div>
+                    <div class="dropdown hidden">
+                        <a class="nav-button" href="location.html">Location</a>
+                    </div>
+                </div>
+                <button class="mobile-nav" onclick="toggleAccordion()">&#x2630;</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="accordion-menu" style="display: none;">
+        <a href="index.html" class="accordion-link nav-button">Home</a>
+        <a href="vehicles.html" class="accordion-link nav-button">Cars</a>
+        <a href="contact.html" class="accordion-link nav-button">Contact</a>
+    </section>
+
+    <main>
+        <h1>Select type</h1>
+        <section class="vehicles">
+            <div class="vehicle-box">
+                <h3>Small cars</h3>
+                <img src="">
+            </div>
+            <div class="vehicle-box">
+<h3>Medium cars</h3>
+<img src="">
+            </div>
+            <div class="vehicle-box">
+<h3>Large cars</h3>
+<img src="">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

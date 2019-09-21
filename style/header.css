@@ -97,7 +97,6 @@ nav {
     padding: 13px 20px;
     transition: 1s ease-in-out;
     border-bottom: 4px solid transparent;
-
 }
 
 .current-page {
@@ -147,13 +146,12 @@ nav {
 }
 
 .accordion-menu {
-    z-index: 1;
-    text-align: right;
+    text-align: left;
 }
 
 .accordion-link {
+    background-color: grey;
     display: block;
-    background-color: black;
 }
 
 /* Footer */

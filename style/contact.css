@@ -1,35 +1,24 @@
 /* form */
- * {
-
- }
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    outline: 1px dotted white;
 }
 
 .form-section {
-width: 40%;
-padding: 20px;
-outline: 1px dotted white;
+    width: 40%;
+    padding: 20px;
 }
 
 form {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-
-
 }
 
 .contact-section {
     width: 20%;
-outline: 1px dotted white;
     padding: 20px;
 }
 
@@ -40,7 +29,7 @@ input {
 }
 
 #messagebox {
-    width: 100%;
+    width: 90%;
     height: 200px;
     padding: 5px 10px;
 }
@@ -55,7 +44,7 @@ form>p {
 }
 
 @media (max-width: 992px) {
-    input {
+    input, #messagebox {
         width: 100%;
     }
 
@@ -69,13 +58,10 @@ form>p {
 }
 
 @media (max-width: 600px) {
-    .form-section, .contact-section {
+
+    .form-section,
+    .contact-section {
         width: 80%;
         text-align: center;
     }
-
-    h4 {
-
-    }
-
 }

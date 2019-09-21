@@ -73,8 +73,10 @@ if (dark) {
 
 // Toggle Accordion
 
-function toggleAccordion() {
+function burgerToggle() {
     const acc = document.querySelector('.accordion-menu');
+    acc.classList.toggle("hidden");
+    /*
     const displayStatus = acc.style.display;
     //console.log(displayStatus);
     if (displayStatus == 'none') {
@@ -85,8 +87,23 @@ function toggleAccordion() {
     if (displayStatus != 'none') {
         acc.style.display = 'none';
         acc.style.height = '0';
-    }
+    }*/
 }
+
+const submenus = document.getElementsByClassName("menu-toggle");
+
+for (let i = 0; i < submenus.length; i++) {
+    submenus[i].addEventListener('click' , toggleMenu, false);
+}
+
+
+function toggleMenu(e) {
+    console.log(e.target.nextElementSibling);
+    //const submenu = document.querySelector('.submenu');
+    const submenu = e.target.nextElementSibling;
+    submenu.classList.toggle("hidden");
+}
+
 
 // Contact form validation
 
