@@ -147,12 +147,25 @@ nav {
 
 .accordion-menu {
     text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+
+li {
+    padding: 10px;
 }
 
 .accordion-link {
-    background-color: grey;
-    display: block;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
 }
+
 
 /* Footer */
 
