@@ -149,10 +149,17 @@ nav {
     text-align: left;
     width: 90%;
     margin: auto;
+
+}
+
+.accordion-menu * {
+    outline: 1px solid transparent;
+
 }
 
 ul {
     list-style: none;
+    padding-left: 0px;
 }
 
 
