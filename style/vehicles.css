@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid white;
+    outline: 1px solid transparent;
 }
 
 .vehicles {
@@ -29,15 +29,19 @@ img {
 .car-specs-box {
     display: flex;
     flex-wrap: wrap;
-    outline: 1px solid grey;
     padding: 20px;
 }
 
 .car-specs-box>p {
     width: 50%;
+    margin: 0px;
 }
 
-.book-button {
+.car-specs-box>p:before {
+    content: "\2666\0020";
+}
+
+.book-button, .price {
     text-align: center;
 }
 

@@ -13,7 +13,6 @@ body {
     display: none;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -45,8 +44,6 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
-
 }
 
 .right-section {
@@ -54,8 +51,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
 }
 
 .phone {
@@ -66,10 +61,6 @@ h1 {
 
 .phone > * {
     font-size: 70%;
-}
-
-.contact-button {
-
 }
 
 /* Navigation dropdowns */
@@ -135,16 +126,13 @@ h1 {
 
 .accordion-menu {
     text-align: left;
-
     margin: auto;
-
 }
 
 ul {
     list-style: none;
     padding-left: 0px;
 }
-
 
 li {
     padding: 10px;
@@ -155,7 +143,6 @@ li {
     padding: 10px;
     width: 90%;
 }
-
 
 /* Footer */
 
@@ -183,10 +170,6 @@ footer {
         display: block;
     }
 
-    .dropdown-content {
-        right: 0;
-    }
-
     .left-section {
         width: 67%;
     }
@@ -194,7 +177,6 @@ footer {
     .right-section {
         width: 20%;
         justify-content: center;
-
     }
 
     .main-logo {
@@ -206,6 +188,4 @@ footer {
     .phone {
         display: none;
     }
-
-
 }
