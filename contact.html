@@ -14,49 +14,65 @@
 
 <body>
 
-    <header class="background-dark-1" id="header">
-        <div class="left-section">
-            <img src="images/logo.png" class="main-logo">
-            <h1 class="company-header">Kelvin Car Hire</h1>
-        </div>
-        <div class="right-section">
-            <div class="phone">
-                <p>&#x260F; Call us on 0141-555-5555 | <a href="contact.html" class="contact-button button-style-1">Contact</a></p>
+        <header class="background-dark-1" id="header">
+            <div class="left-section">
+                <img src="images/logo.png" class="main-logo">
+                <h1 class="company-header">Kelvin Car Hire</h1>
             </div>
-            <nav>
-                <div class="standard-nav">
-                    <div class="dropdown">
-                        <a class="nav-button" href="index.html">Home</a>
-                    </div>
-                    <div class="dropdown hidden">
-                        <a class="nav-button" href="book.html">Book</a>
-                    </div>
-                    <div class="dropdown">
-                        <a class="nav-button" href="vehicles.html">Vehicles</a>
-                        <div class="dropdown-content">
-                            <a href="Cars/cars-small.html" class="dropdown-link">Small Cars</a>
-                            <a href="Cars/cars-medium.html" class="dropdown-link">Medium Cars</a>
-                            <a href="Cars/cars-large.html" class="dropdown-link">Large Cars</a>
-                            <a href="Cars/vans.html" class="dropdown-link">Vans</a>
+            <div class="right-section">
+                <div class="phone">
+                    <p>&#x260F; Call us on 0141-555-5555 | <a href="contact.html" class="contact-button button-style-1">Contact</a></p>
+                </div>
+                <nav>
+                    <div class="standard-nav">
+                        <div class="dropdown">
+                            <a class="nav-button current-page" href="index.html">Home</a>
+                        </div>
+                        <div class="dropdown hidden">
+                            <a class="nav-button" href="book.html">Book</a>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-button">Vehicles</a>
+                            <div class="dropdown-content">
+                                <a href="cars-small.html" class="dropdown-link">Small Cars</a>
+                                <a href="cars-medium.html" class="dropdown-link">Medium Cars</a>
+                                <a href="cars-large.html" class="dropdown-link">Large Cars</a>
+                                <a href="vans.html" class="dropdown-link">Vans</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-button" href="contact.html">Contact</a>
+                        </div>
+                        <div class="dropdown hidden">
+                            <a class="nav-button" href="location.html">Location</a>
                         </div>
                     </div>
-                    <div class="dropdown">
-                        <a class="nav-button current-page" href="contact.html">Contact</a>
-                    </div>
-                    <div class="dropdown hidden">
-                        <a class="nav-button" href="location.html">Location</a>
-                    </div>
-                </div>
-                <button class="mobile-nav" onclick="toggleAccordion()">&#x2630;</button>
-            </nav>
-        </div>
-    </header>
+                    <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
+                </nav>
+            </div>
+        </header>
 
-    <section class="accordion-menu" style="display: none;">
-        <a href="index.html" class="accordion-link nav-button">Home</a>
-        <a href="vehicles.html" class="accordion-link nav-button">Cars</a>
-        <a href="contact.html" class="accordion-link nav-button">Contact</a>
-    </section>
+        <section class="accordion-menu hidden">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-toggle">Cars</a>
+                    <ul class="submenu hidden">
+                        <li>One</li>
+                        <li>Two</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-toggle">Contact</a>
+                    <ul class="submenu hidden">
+                        <li>One</li>
+                        <li>Two</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
     <main>
 

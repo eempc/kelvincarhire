@@ -1,5 +1,5 @@
-.vehicles * {
-    outline: 1px solid white;
+ * {
+outline: 1px solid white;
 }
 
 .vehicles {
@@ -7,7 +7,63 @@
     justify-content: center;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.vehicle-box {
+    width: 24%;
+    padding: 1%;
+    border: 1px solid white;
+
+}
+
 img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.car-specs-box {
+    display: flex;
+    flex-wrap: wrap;
+outline: 1px solid grey;
+    padding: 20px;
+
+}
+
+.car-specs-box * {
+
+}
+
+.car-specs-box > p  {
+    width: 45%;
+}
+
+.book-button {
+text-align: center;
+
+}
+
+@media (max-width: 992px) {
+    .vehicle-box {
+        width: 49%;
+    }
+
+    .car-specs-box>p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .vehicle-box {
+        width: 99%;
+    }
+
+.car-specs-box>p {
+    width: 100%;
+}
 }

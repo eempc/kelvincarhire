@@ -106,7 +106,6 @@ function toggleMenu(e) {
 
 
 // Contact form validation
-
 // Placeholder javascript form validation script in lieu of POSTing
 
 function validateFields() {

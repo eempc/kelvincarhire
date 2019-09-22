@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/darktheme.css">
+    <link rel="stylesheet" type="text/css" href="style/vehicles.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+</head>
+
+<body>
+        <header class="background-dark-1" id="header">
+            <div class="left-section">
+                <img src="images/logo.png" class="main-logo">
+                <h1 class="company-header">Kelvin Car Hire</h1>
+            </div>
+            <div class="right-section">
+                <div class="phone">
+                    <p>&#x260F; Call us on 0141-555-5555 | <a href="contact.html" class="contact-button button-style-1">Contact</a></p>
+                </div>
+                <nav>
+                    <div class="standard-nav">
+                        <div class="dropdown">
+                            <a class="nav-button current-page" href="index.html">Home</a>
+                        </div>
+                        <div class="dropdown hidden">
+                            <a class="nav-button" href="book.html">Book</a>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-button">Vehicles</a>
+                            <div class="dropdown-content">
+                                <a href="cars-small.html" class="dropdown-link">Small Cars</a>
+                                <a href="cars-medium.html" class="dropdown-link">Medium Cars</a>
+                                <a href="cars-large.html" class="dropdown-link">Large Cars</a>
+                                <a href="vans.html" class="dropdown-link">Vans</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="nav-button" href="contact.html">Contact</a>
+                        </div>
+                        <div class="dropdown hidden">
+                            <a class="nav-button" href="location.html">Location</a>
+                        </div>
+                    </div>
+                    <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
+                </nav>
+            </div>
+        </header>
+
+        <section class="accordion-menu hidden">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-toggle">Cars</a>
+                    <ul class="submenu hidden">
+                        <li>One</li>
+                        <li>Two</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-toggle">Contact</a>
+                    <ul class="submenu hidden">
+                        <li>One</li>
+                        <li>Two</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+    <h1>Small Cars</h1>
+    <main>
+        <div class="vehicle-box">
+            <h2>Fiat Punto</h2>
+            <div class="carousel">
+                <img src="images/logo.png">
+            </div>
+            <div class="car-specs-box">
+                <p class="top-left">2 doors</p>
+                <p class="top-right">Automatic</p>
+                <p class="bottom-left">Air Con</p>
+                <p class="bottom-right">Bottom right</p>
+            </div>
+            <p>From £30 per day</p>
+            <a href="" class="book-button">
+                <p>Book!</p>
+            </a>
+        </div>
+        <div class="vehicle-box">
+            <h2>Ford Fiesta</h2>
+            <div class="carousel">
+                <img src="images/logo.png">
+            </div>
+            <div class="car-specs-box">
+                <p class="top-left">4 doors</p>
+                <p class="top-right">Manual</p>
+                <p class="bottom-left">Air Con</p>
+                <p class="bottom-right">Bottom right</p>
+            </div>
+            <p>From £30 per day</p>
+            <a href="" class="book-button">
+                <p>Book!</p>
+            </a>
+        </div>
+        </div>
+        <div class="vehicle-box">
+            <h2>Audi A2</h2>
+            <div class="carousel">
+                <img src="images/logo.png">
+            </div>
+            <div class="car-specs-box">
+                <p class="top-left">4 doors</p>
+                <p class="top-right">Manual</p>
+                <p class="bottom-left">Air Con</p>
+                <p class="bottom-right">Leather seats</p>
+            </div>
+            <p>From £30 per day</p>
+            <a href="" class="book-button">
+                <p>Book!</p>
+            </a>
+        </div>
+        </div>
+        <div class="vehicle-box">
+            <h2>Reliant Robin</h2>
+            <div class="carousel">
+                <img src="images/logo.png">
+            </div>
+            <div class="car-specs-box">
+                <p class="top-left">2 doors</p>
+                <p class="top-right">Manual</p>
+                <p class="bottom-left">Air Con</p>
+                <p class="bottom-right">3 wheels</p>
+            </div>
+            <p>From £30 per day</p>
+            <a href="" class="book-button">
+                <p>Book!</p>
+            </a>
+        </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
