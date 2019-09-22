@@ -7,8 +7,6 @@ let today = new Date();
 //const endDate = document.getElementById('end-date');
 //endDate.valueAsDate = today;
 
-
-
 // Cookies and settings
 
 function cookieDisappear() {
@@ -69,25 +67,11 @@ if (dark) {
 }
 */
 
-
-
 // Toggle Accordion
 
 function burgerToggle() {
     const acc = document.querySelector('.accordion-menu');
     acc.classList.toggle("hidden");
-    /*
-    const displayStatus = acc.style.display;
-    //console.log(displayStatus);
-    if (displayStatus == 'none') {
-        acc.style.display = 'block';
-        acc.style.height = '100%';
-    }
-
-    if (displayStatus != 'none') {
-        acc.style.display = 'none';
-        acc.style.height = '0';
-    }*/
 }
 
 const submenus = document.getElementsByClassName("menu-toggle");
@@ -98,12 +82,11 @@ for (let i = 0; i < submenus.length; i++) {
 
 
 function toggleMenu(e) {
-    console.log(e.target.nextElementSibling);
+    //console.log(e.target.nextElementSibling);
     //const submenu = document.querySelector('.submenu');
     const submenu = e.target.nextElementSibling;
     submenu.classList.toggle("hidden");
 }
-
 
 // Contact form validation
 // Placeholder javascript form validation script in lieu of POSTing
@@ -145,6 +128,4 @@ function validateFields() {
         //phoneMessage.innerHTML = "Okay";
     }
 }
-
-// Google Map
 

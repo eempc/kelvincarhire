@@ -1,10 +1,4 @@
 /* Theme CSS deals only with: text-colour, background colours, border style */
-
-
-
-
-
-
 h2 {
     text-align: center;
 }
@@ -14,16 +8,13 @@ h3 {
 }
 
 .box-style-1 {
-
     outline: 1px solid black;
     box-shadow: 1px 1px 1px grey;
 }
 
 .box-style-2 {
-
     outline: 1px solid black;
     box-shadow: 1px 1px 1px grey;
-
 }
 
 .button-style-1 {
@@ -39,10 +30,8 @@ h3 {
     padding: 12px 24px;
     font-size: 1.2em;
     font-weight: bold;
-
 }
 
 .background-dark-1 {
-        background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(107, 107, 107) 100%);
-
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(107, 107, 107) 100%);
 }
