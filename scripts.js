@@ -1,11 +1,11 @@
 let today = new Date();
 
 // Setting the form dates
-const startDate = document.getElementById('start-date');
-startDate.valueAsDate = today;
+//const startDate = document.getElementById('start-date');
+//startDate.valueAsDate = today;
 
-const endDate = document.getElementById('end-date');
-endDate.valueAsDate = today;
+//const endDate = document.getElementById('end-date');
+//endDate.valueAsDate = today;
 
 
 
