@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vans</title>
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/darktheme.css">
+    <link rel="stylesheet" type="text/css" href="style/vehicles.css">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+</head>
+
+<body>
+    <header class="background-dark-1" id="header">
+        <div class="left-section" href="index.html">
+            <a href="index.html">
+                <img src="images/logo.png" class="main-logo">
+            </a>
+            <h1 class="company-header text-light-blue">Kelvin Car Hire</h1>
+
+        </div>
+        <div class="right-section">
+            <div class="phone">
+                <p>&#x260F; Call us on 0141-555-5555 | <a href="contact.html" class="contact-button button-style-1">Contact</a></p>
+            </div>
+            <nav>
+                <div class="standard-nav">
+                    <div class="dropdown">
+                        <a class="nav-button text-light-blue" href="index.html">Home</a>
+                    </div>
+                    <div class="dropdown hidden">
+                        <a class="nav-button text-light-blue" href="book.html">Book</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button text-light-blue current-page">Vehicles</a>
+                        <div class="dropdown-content">
+                            <a href="cars-small.html" class="dropdown-link text-light-blue current-page">Small Cars</a>
+                            <a href="cars-medium.html" class="dropdown-link text-light-blue">Medium Cars</a>
+                            <a href="cars-large.html" class="dropdown-link text-light-blue">Large Cars</a>
+                            <a href="vans.html" class="dropdown-link text-light-blue">Vans</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button text-light-blue" href="contact.html">Contact</a>
+                    </div>
+                    <div class="dropdown hidden">
+                        <a class="nav-button text-light-blue" href="location.html">Location</a>
+                    </div>
+                </div>
+                <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="accordion-menu hidden">
+        <ul>
+            <li>
+                <a href="index.html" class="accordion-link button-style-1">Home</a>
+            </li>
+            <li>
+                <a href="#" class="accordion-link button-style-1">Contact</a>
+            </li>
+            <li>
+                <a href="#" class="menu-toggle accordion-link button-style-1">Cars &#x25BC;</a>
+                <ul class="submenu hidden">
+                    <li><a href="cars-small.html" class="accordion-link button-style-1">Small cars</a></li>
+                    <li><a href="cars-medium.html" class="accordion-link button-style-1">Medium cars</a></li>
+                    <li><a href="cars-large.html" class="accordion-link button-style-1">Large cars</a></li>
+                    <li><a href="vans.html" class="accordion-link button-style-1">Vans</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <h2>Vans</h2>
+
+    <main>
+        <div class="vehicle-box box-style-2">
+            <h3>BMW 7-series</h3>
+            <div class="carousel">
+                <img class="carousel-image" src="images/cars/aygo.jpg">
+            </div>
+            <div class="car-specs-box">
+                <p class="top-left">4 doors</p>
+                <p class="top-right">Leather seats</p>
+                <p class="bottom-left">Air con</p>
+                <p class="bottom-right">5 seats</p>
+            </div>
+            <p class="price">From £20 per day</p>
+            <a href="" class="book-button">
+                <p class="button-style-2">Book!</p>
+            </a>
+        </div>
+        <div class="vehicle-box box-style-2">
+            <h3>Ford S-MAX</h3>
+            <div class="carousel">
+                <img src="images/cars/fiesta.jpg">
+            </div>
+            <div class="car-specs-box">
+                <p class="top-left">7 seats</p>
+                <p class="top-right">Automatic</p>
+                <p class="bottom-left">Air Con</p>
+                <p class="bottom-right">Sporty</p>
+            </div>
+            <p class="price">From £30 per day</p>
+            <a href="" class="book-button">
+                <p class="button-style-2">Book!</p>
+            </a>
+        </div>
+
+        <div class="vehicle-box box-style-2">
+            <h3>Audi A6</h3>
+            <div class="carousel">
+                <img src="images/cars/a2.jpg">
+            </div>
+            <div class="car-specs-box">
+                <p class="top-left">5 seats</p>
+                <p class="top-right">Manual</p>
+                <p class="bottom-left">Air Con</p>
+                <p class="bottom-right">Leather seats</p>
+            </div>
+            <p class="price">From £40 per day</p>
+            <a href="" class="book-button">
+                <p class="button-style-2">Book!</p>
+            </a>
+        </div>
+
+
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

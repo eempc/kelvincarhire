@@ -18,7 +18,6 @@ main {
 .vehicle-box {
     width: 24%;
     padding: 1%;
-    border: 1px solid white;
 }
 
 img {
@@ -35,6 +34,8 @@ img {
 .car-specs-box>p {
     width: 50%;
     margin: 0px;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .car-specs-box>p:before {
