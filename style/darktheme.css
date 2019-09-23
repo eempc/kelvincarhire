@@ -19,14 +19,21 @@ h3 {
     border-bottom: 2px lightblue solid;
 }
 
+h4 {
+    text-align: center;
+    font-style: italic;
+}
+
 .box-style-1 {
     border: 1px solid black;
     box-shadow: 1px 1px 1px grey;
+    margin: 10px 0px;
 }
 
 .box-style-2 {
     border: 2px solid lightblue;
     box-shadow: 1px 1px 1px grey;
+    margin: 10px 0px;
 }
 
 .button-style-1 {
