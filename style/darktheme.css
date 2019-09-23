@@ -4,8 +4,12 @@ body {
     background-color: rgb(71, 66, 66);
 }
 
-h2, h3, h4, p {
+h2, h3, h4, label, h5 {
     color: lightblue;
+}
+
+p {
+    color:rgb(235, 235, 235);
 }
 
 h2 {
@@ -22,6 +26,10 @@ h3 {
 h4 {
     text-align: center;
     font-style: italic;
+}
+
+h5 {
+    font-size: 1em;
 }
 
 .box-style-1 {
