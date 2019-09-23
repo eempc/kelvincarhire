@@ -6,8 +6,12 @@
     content: "\1f4c5\2003";
 }
 
-.container-features * {
+.location:before {
+    content: "\1f9ed";
+}
 
+ * {
+outline: 1px solid white;
 }
 
 .container-features {
@@ -17,6 +21,15 @@
     width: 80%;
 }
 
+input, select {
+    display: block;
+    margin: 10px;
+}
+
+.time, .calendar, select {
+    width: 180px;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -24,8 +37,17 @@ main {
 
 }
 
+
 .booking-box {
-    width: 50%;
+    width: 100%;
+    background-image: url("../images/cars/a2.jpg");
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -33,10 +55,6 @@ main {
     width: 25%;
     text-align: center;
     padding: 20px;
-}
-
-.feature-box * {
-
 }
 
 .circle {

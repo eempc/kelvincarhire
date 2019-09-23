@@ -78,28 +78,31 @@
     </section>
 
     <main>
-        <h2>Book now!</h2>
+        <h2>Start your booking here</h2>
         <section class="booking-box box-style-1">
             <form>
-                <label for="locations-dropdown"><i class="material-icons">location_on</i> Location:</label>
-                    <select name="locations" id="locations-dropdown">
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Stirling">Stirling</option>
-                    </select>
-                <br>
-                <label for="start-date" class="calendar">Start date:</label>
-                    <input id="start-date" type="date" name="start-date">
+                <h5 class="location">Location:</h5>
 
-                <label for="start-time" class="time">Start time:</label>
-                    <input id="start-time" type="time" min="08:00" max="18:00" value="09:00">
-                <br>
-                <label for="end-date" class="calendar">End date:</label>
-                    <input id="end-date" type="date" name="end-date">
-                <label for="end-time" class="time">End time:</label>
-                    <input id="end-time" type="time" min="08:00" max="18:00" value="09:00">
+                <select name="locations" id="locations-dropdown">
 
-                    <input id="submit-button" class="button-style-2" type="submit" value="Book">
+                    <option value="Glasgow">Glasgow</option>
+                    <option value="Edinburgh">Edinburgh</option>
+                    <option value="Stirling">Stirling</option>
+                </select>
+
+                <div>
+                    <h5>Start date and time</h5>
+                    <input id="start-date" type="date" name="start-date" class="calendar">
+                    <input id="start-time" type="time" min="08:00" max="18:00" value="09:00" class="time">
+                </div>
+
+                <div>
+                    <h5>End date and time</h5>
+                    <input id="end-date" type="date" name="end-date" class="calendar">
+                    <input id="end-time" type="time" min="08:00" max="18:00" value="18:00" class="time">
+                </div>
+
+                <input id="submit-button" class="button-style-2" type="submit" value="Book">
             </form>
         </section>
 

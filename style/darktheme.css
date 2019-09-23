@@ -1,7 +1,7 @@
 /* Theme CSS deals only with: text-colour, background colours, border style */
 body {
     margin: 0px;
-    background-color: rgb(71, 66, 66);
+    background-color: rgb(71, 66, 66, 0.9);
 }
 
 h2, h3, h4, label, h5 {
