@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style/darktheme.css">
     <link rel="stylesheet" type="text/css" href="style/home.css">
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
@@ -78,10 +78,10 @@
     </section>
 
     <main>
-        <h2>Start your booking here</h2>
+        <h2>Book here</h2>
         <section class="booking-box box-style-1">
             <form>
-                <h5 class="location">Location:</h5>
+                <p class="location">Location</p>
 
                 <select name="locations" id="locations-dropdown">
 
@@ -90,14 +90,14 @@
                     <option value="Stirling">Stirling</option>
                 </select>
 
-                <div>
-                    <h5>Start date and time</h5>
+                <div class="start-box">
+                    <p>Start date and time</p>
                     <input id="start-date" type="date" name="start-date" class="calendar">
                     <input id="start-time" type="time" min="08:00" max="18:00" value="09:00" class="time">
                 </div>
 
-                <div>
-                    <h5>End date and time</h5>
+                <div class="end-box">
+                    <p>End date and time</p>
                     <input id="end-date" type="date" name="end-date" class="calendar">
                     <input id="end-time" type="time" min="08:00" max="18:00" value="18:00" class="time">
                 </div>
@@ -154,8 +154,8 @@
         </section>
     </main>
 
-    <footer class="background-dark-1">
-        test<br><br><br><br><br><br>
+    <footer class="w3-container">
+
     </footer>
 
 

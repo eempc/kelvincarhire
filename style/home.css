@@ -1,34 +1,9 @@
-.time::before {
-    content: "\1f551\2003";
+* {
+    outline: 1px solid transparent;
 }
 
-.calendar::before {
-    content: "\1f4c5\2003";
-}
 
-.location:before {
-    content: "\1f9ed";
-}
 
- * {
-outline: 1px solid white;
-}
-
-.container-features {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 80%;
-}
-
-input, select {
-    display: block;
-    margin: 10px;
-}
-
-.time, .calendar, select {
-    width: 180px;
-}
 
 main {
     display: flex;
@@ -37,18 +12,59 @@ main {
 
 }
 
+/* Form */
 
 .booking-box {
     width: 100%;
-    background-image: url("../images/cars/a2.jpg");
-    background-repeat: no-repeat;
+
 }
 
 form {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(50, 200, 200, 0.5);
+}
 
+
+.location {
+
+}
+
+.time,
+.calendar {
+    width: 49%;
+    border-radius: 20px;
+}
+
+select {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.time::before {
+    content: "\2003\1f551\2003";
+}
+
+.calendar::before {
+    content: "\2003\1f4c5\2003";
+}
+
+.location:before {
+    content: "\1f9ed";
+}
+
+#submit-button {
+
+}
+
+/* Circles */
+
+.container-features {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
 .feature-box {
@@ -56,6 +72,7 @@ form {
     text-align: center;
     padding: 20px;
 }
+
 
 .circle {
     margin: 2em 0;
@@ -97,11 +114,11 @@ form {
     vertical-align: middle;
 }
 
-.circle-content > p {
+.circle-content>p {
     margin: 6px;
 }
 
-.circle-content > p:before {
+.circle-content>p:before {
     content: "\2605\2003";
     color: yellow;
 }
@@ -118,9 +135,7 @@ form {
     transition: 0.5s ease-in-out;
 }
 
-@media (max-width: 992px) {
-
-}
+@media (max-width: 992px) {}
 
 @media (max-width: 600px) {
     .booking-box {
@@ -131,12 +146,25 @@ form {
         width: 40%;
     }
 
-    .circle  {
+    .circle {
         width: 66%;
     }
 
-    .circle-content > p {
+    .circle-content>p {
         text-size-adjust: 85%;
     }
 
+form {
+    width: 320px;
+}
+    .time,
+    .calendar {
+        width: 100%;
+        border-radius: 20px;
+        font-size: 1.2em;
+    }
+
+    select {
+        font-size: 1.4em;
+    }
 }
