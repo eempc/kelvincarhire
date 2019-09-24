@@ -4,9 +4,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../images/bigpic.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 /* Form */
