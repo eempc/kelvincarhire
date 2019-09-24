@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: center;
     padding: 0px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
     border-bottom: 5px blue solid;
 }
 
@@ -150,7 +150,12 @@ li {
 /* Footer */
 
 footer {
-    margin-top: 24px;
+    margin: 100px 0px;
+}
+
+.social-logo {
+    width: 50px;
+    height: 50px;
 }
 
 @media (max-width: 992px) {
