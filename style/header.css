@@ -130,6 +130,7 @@ h1 {
 .accordion-menu {
     text-align: left;
     margin: auto;
+    border-bottom: 3px solid rgb(69, 69, 218);
 }
 
 ul {
@@ -150,7 +151,17 @@ li {
 /* Footer */
 
 footer {
-    margin: 100px 0px;
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 5px solid blue;
+}
+
+footer > div {
+    width: 20%;
+
+    text-align: center;
 }
 
 .social-logo {
@@ -195,5 +206,13 @@ footer {
 
     .phone {
         display: none;
+    }
+
+    footer {
+        padding: 20px 0px;
+    }
+
+    footer>div {
+        width: 100%;
     }
 }
