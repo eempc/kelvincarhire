@@ -129,3 +129,7 @@ function validateFields() {
     }
 }
 
+function toggleAnimation () {
+    const mainImage = document.getElementById('main-image');
+    mainImage.classList.toggle("animate-image")
+}

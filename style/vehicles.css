@@ -1,16 +1,75 @@
-* {
-    outline: 1px solid transparent;
+main {
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
-.vehicles {
+main * {
+    outline: 1px solid yellow;
+}
+
+.vehicles-container {
+    width: 75%;
     display: flex;
+    flex-wrap: wrap;
+    margin: auto;
     justify-content: center;
 }
+
+.vehicle-page-head {
+    width: 100%;
+}
+
+.vehicle-box {
+    width: 40%;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    border: 1px dotted black;
+}
+
+
+.car-image {
+    width: 33%;
+    margin: 12px;
+}
+
+button {
+    text-align: center;
+    border: 1px solid yellow;
+    
+    padding: 20px;
+}
+
+.image-container {
+    width: 100%;
+    padding: 0;
+}
+
+#main-image {
+    padding: 24px;
+    width: 50%;
+
+}
+
+.animate-image {
+    animation-name: slide-down;
+    animation-duration: 4s;
+
+    
+}
+
+@keyframes slide-down {
+    from {height: 0px;}
+    to {height: 100%;}
+  }
+
+/*
 
 main {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
     margin: auto;
 }
@@ -20,7 +79,7 @@ main {
     padding: 1%;
 }
 
-img {
+.carousel-image {
     width: 100%;
     height: auto;
 }
@@ -46,18 +105,16 @@ img {
     text-align: center;
 }
 
+*/
+
 @media (max-width: 992px) {
     .vehicle-box {
-        width: 49%;
-    }
-
-    .car-specs-box>p {
-        width: 90%;
+        width: 45%;
     }
 }
 
 @media (max-width: 600px) {
-    .vehicle-box, .car-specs-box>p {
+    .vehicle-box, .vehicles-container {
         width: 100%;
     }
 }

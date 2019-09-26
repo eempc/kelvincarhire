@@ -10,26 +10,31 @@ h2, h3, h4, label, h5 {
 
 p {
     color:rgb(235, 235, 235);
+    margin: 0;
 }
 
 h2 {
     text-align: center;
-    margin: 30px 0px;
+    margin: 0px 0px;
     font-size: 2.5em;
 }
 
 h3 {
-    text-align: center;
+    text-align: left;
     border-bottom: 2px lightblue solid;
+    margin: 0;
 }
 
 h4 {
     text-align: center;
     font-style: italic;
+    margin: 0;
 }
 
 h5 {
-    font-size: 1em;
+    text-align: left;
+    font-style: italic;
+    margin: 0;
 }
 
 .box-style-1 {
@@ -42,6 +47,10 @@ h5 {
     border: 2px solid lightblue;
     box-shadow: 1px 1px 1px grey;
     margin: 10px 0px;
+}
+
+.box-style-3 {
+    background-color: rgb(50, 200, 200, 0.5);
 }
 
 .button-style-1 {

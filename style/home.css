@@ -24,7 +24,13 @@ form {
     width: 500px;
     margin: auto;
     padding: 20px;
-    background-color: rgb(50, 200, 200, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form > p {
+    width: 99%;
+    padding: 24px 0px;
 }
 
 .time,
@@ -44,10 +50,6 @@ select {
 
 .calendar::before {
     content: "\2003\1f4c5\2003";
-}
-
-.location:before {
-    content: "\1f9ed";
 }
 
 #submit-button {
