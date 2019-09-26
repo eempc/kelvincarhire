@@ -1,0 +1,120 @@
+main {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+main * {
+    
+}
+
+.vehicles-container {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.vehicle-page-head {
+    width: 100%;
+}
+
+.vehicle-box {
+    width: 40%;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    border: 1px dotted black;
+}
+
+
+.car-image {
+    width: 33%;
+    margin: 12px;
+}
+
+button {
+    text-align: center;
+
+    
+    padding: 20px;
+}
+
+.image-container {
+    width: 100%;
+    padding: 0;
+}
+
+#main-image {
+    padding: 24px;
+    width: 50%;
+
+}
+
+.animate-image {
+    animation-name: slide-down;
+    animation-duration: 1s;
+    animation-delay: -0.2s;
+    
+}
+
+@keyframes slide-down {
+    from {height: 0px;}
+    to {height: 100%;}
+  }
+
+/*
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.vehicle-box {
+    width: 24%;
+    padding: 1%;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+.car-specs-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.car-specs-box>p {
+    width: 50%;
+    margin: 0px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.car-specs-box>p:before {
+    content: "\2666\0020";
+}
+
+.book-button, .price {
+    text-align: center;
+}
+
+*/
+
+@media (max-width: 992px) {
+    .vehicle-box {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .vehicle-box, .vehicles-container {
+        width: 100%;
+    }
+}

@@ -6,26 +6,22 @@ for (let i = 0; i < carThumbs.length; i++) {
     carThumbs[i].addEventListener('click' , toggleAnimation, false);
 }
 
-
-
 async function toggleAnimation (event) {
     const x = document.getElementById('body');
     
-    if (x.offsetWidth < 992) return;
-    
+    if (x.offsetWidth < 992) {
+        return;
+    }
+
     const mainImage = document.getElementById('main-image');
     let imageUrl = event.srcElement.getAttribute("src");
 
-
-
     mainImage.src = imageUrl;
-    
     mainImage.classList.remove("hidden");
-    
     mainImage.classList.add("animate-image")
-    
-    await sleep(500);
-    
+
+    // Reset the animation afterwards
+    await sleep(700);
     mainImage.classList.remove("animate-image");
 }
 
