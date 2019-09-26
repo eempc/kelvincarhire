@@ -20,14 +20,13 @@ h2 {
 }
 
 h3 {
-    text-align: left;
-    border-bottom: 2px lightblue solid;
+    text-align: center;
+
     margin: 0;
 }
 
 h4 {
-    text-align: center;
-    font-style: italic;
+    text-align: left;
     margin: 0;
 }
 
@@ -50,7 +49,7 @@ h5 {
 }
 
 .box-style-3 {
-    background-color: rgb(50, 200, 200, 0.5);
+    background-color: rgba(15, 75, 75, 0.5);
 }
 
 .button-style-1 {

@@ -12,7 +12,7 @@
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
 </head>
 
-<body>
+<body id="body">
     <header class="background-dark-1" id="header">
         <div class="left-section" href="index.html">
             <a href="index.html">
@@ -79,39 +79,39 @@
         <div class="vehicles-container">
             <h2 class="vehicle-page-head">Compact Cars</h2>
             <div class="vehicle-box box-style-3">
-                <img src="images/cars/aygo.jpg" class="car-image" onclick="toggleAnimation()">
+                <img src="images/cars/aygo.jpg" class="car-image">
                 <div>
-                    <h3>Toyota Aygo</h3>
-                    <h5>Compact city car</h5>
+                    <h4 class="car-name">Toyota Aygo</h4>
+                    <h5 class="car-subtitle">Compact city car</h5>
                     <p>4 passengers, small luggage</p>
                 </div>
             </div>
             <div class="vehicle-box box-style-3">
                 <img src="images/cars/robin.jpg" class="car-image">
                 <div>
-                    <h3>Reliant Robin</h3>
-                    <h5>Classic fun</h5>
+                    <h4 class="car-name">Reliant Robin</h4>
+                    <h5 class="car-subtitle">Classic fun</h5>
                     <p>4 passengers, small luggage</p>
                 </div>
             </div>
             <div class="vehicle-box box-style-3">
                 <img src="images/cars/fiesta.jpg" class="car-image">
                 <div>
-                    <h3>Ford Fiesta</h3>
-                    <h5>Compact</h5>
+                    <h4 class="car-name">Ford Fiesta</h4>
+                    <h5 class="car-subtitle">Compact</h5>
                     <p>5 passengers, medium luggage, etc</p>
                 </div>
             </div>
             <div class="vehicle-box box-style-3">
                 <img src="images/cars/a2.jpg" class="car-image">
                 <div>
-                    <h3>Audi A2</h3>
-                    <h5>Compact luxury</h5>
+                    <h4 class="car-name">Audi A2</h4>
+                    <h5 class="car-subtitle">Compact luxury</h5>
                     <p>5 passengers, small luggage, etc</p>
                 </div>
             </div>
             <div class="image-container">
-                    <img id="main-image" src="images/cars/fiesta6.jpg">
+                    <img id="main-image" class="hidden" src="images/cars/fiesta6.jpg">
             </div>
 
         </div>
@@ -122,38 +122,39 @@
 
 
     <footer class="">
-        <div class="hidden">
-            <img src="images/logo.png" class="main-logo">
-            <div class="text-light-blue">Kelvin Car Hire</div>
-        </div>
-
-        <div>
-            <h5>General enquiries:</h5>
-            <p>0141-555-5555</p>
-            <h5>Emergency enquiries:</h5>
-            <p>0141-555-5556</p>
-        </div>
-        <div>
-            <h5>Locations</h5>
-
-            <p>Glasgow</p>
-            <p>Edinbrugh</p>
-            <p>Stirling</p>
-
-        </div>
-
-        <div>
-            <h5>Find us on:</h5>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img
-                    src="images/Social-Networks-Facebook-icon.png" class="social-logo"></a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><img
-                    src="images/Social-Networks-Twitter-icon.png" class="social-logo"></a>
-        </div>
-
-
-    </footer>
+            <div class="hidden">
+                <img src="images/logo.png" class="main-logo">
+                <div class="text-light-blue">Kelvin Car Hire</div>
+            </div>
+    
+            <div>
+                <h3>General enquiries:</h3>
+                <p>0141-555-5555</p>
+                <h3>Emergency enquiries:</h3>
+                <p>0141-555-5556</p>
+            </div>
+            <div>
+                <h3>Locations</h3>
+    
+                <p>Glasgow</p>
+                <p>Edinbrugh</p>
+                <p>Stirling</p>
+    
+            </div>
+    
+            <div>
+                <h3>Find us on:</h3>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img
+                        src="images/Social-Networks-Facebook-icon.png" class="social-logo"></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><img
+                        src="images/Social-Networks-Twitter-icon.png" class="social-logo"></a>
+            </div>
+    
+    
+        </footer>
 
     <script src="scripts.js"></script>
+    <script src="cars.js"></script>
 </body>
 
 </html>

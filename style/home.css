@@ -28,7 +28,7 @@ form {
     flex-wrap: wrap;
 }
 
-form > p {
+.form-heading {
     width: 99%;
     padding: 24px 0px;
 }

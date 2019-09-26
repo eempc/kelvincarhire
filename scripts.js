@@ -119,17 +119,13 @@ function validateFields() {
         //messageBoxMessage.innerHTML = "Okay";
     }
 
-    const phoneInput = document.getElementById("telephone");
-    const phoneMessage = document.getElementById("required-phone");
+    //const phoneInput = document.getElementById("telephone");
+    //const phoneMessage = document.getElementById("required-phone");
 
-    if (!phonelInput.checkValidity()) {
-        phoneMessage.innerHTML = phoneInput.validationMessage;
-    } else {
-        //phoneMessage.innerHTML = "Okay";
-    }
+    //if (!phonelInput.checkValidity()) {
+    //    phoneMessage.innerHTML = phoneInput.validationMessage;
+    //} else {
+    //    //phoneMessage.innerHTML = "Okay";
+    //}
 }
 
-function toggleAnimation () {
-    const mainImage = document.getElementById('main-image');
-    mainImage.classList.toggle("animate-image")
-}

@@ -17,6 +17,14 @@ form {
     align-items: flex-start;
 }
 
+h4 {
+    padding: 24px 0px;
+}
+
+form > input, textarea {
+    margin: 6px 0px;
+}
+
 .contact-section {
     width: 20%;
     padding: 20px;
