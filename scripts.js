@@ -129,3 +129,11 @@ function validateFields() {
     //}
 }
 
+// Fill in the <i> of font awesome
+
+const fontAwesomes = document.getElementsByClassName('fas');
+
+for (let i = 0; i < fontAwesomes.length; i++) {
+    fontAwesomes[i].innerHTML = "&nbsp;";
+}
+
