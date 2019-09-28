@@ -4,16 +4,16 @@ main * {
 
 main {
     margin-bottom: 36px;
-
+    max-width: 1400px;
     margin: auto;
 }
 
 .box-vehicle {
-    width: 70%;
+    width: 100%;
     display: flex;
     margin: 24px auto;
     justify-content: space-evenly;
-
+    flex-wrap: wrap;
 }
 
 .car-image {
@@ -68,5 +68,28 @@ button {
 .car-features > div {
     width: 40%;
     padding: 8px 12px;
+
 }
 
+@media (max-width: 992px) {
+
+    .car-image {
+        width: 90%;
+        margin: 12px 0px;
+    }
+
+    .car-description {
+        width: 90%;
+        margin: 12px;
+    }
+
+    .box-description {
+        width: 90%
+    }
+}
+
+@media (max-width: 600px) {
+    .car-image, .box-description {
+        width: 100%;
+    }
+}
