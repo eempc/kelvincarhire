@@ -48,9 +48,7 @@ h5 {
     margin: 10px 0px;
 }
 
-.box-style-3 {
-    background-color: rgba(15, 75, 75, 0.5);
-}
+
 
 .button-style-1 {
     background-color: grey;
@@ -73,6 +71,10 @@ h5 {
 
 .background-dark-1 {
     background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(107, 107, 107) 100%);
+}
+
+.background-style-3 {
+    background-color: rgba(15, 75, 75, 0.75);
 }
 
 .text-light-blue {

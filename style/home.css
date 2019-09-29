@@ -1,6 +1,4 @@
-* {
-
-}
+* {}
 
 main {
     display: flex;
@@ -41,7 +39,7 @@ form {
 
 select {
     width: 99%;
-     border-radius: 20px;
+    border-radius: 20px;
 }
 
 .time::before {
@@ -54,7 +52,8 @@ select {
 
 #submit-button {
     display: block;
-    margin: 10px auto;
+    margin: 32px auto 12px auto;
+    width: 50%;
 }
 
 /* Bottom */
@@ -90,15 +89,16 @@ select {
         text-size-adjust: 85%;
     }
 
-.background-pic {
-    display: none;
-}
+    .background-pic {
+        display: none;
+    }
 
-form {
-    width: 320px;
-    position: unset;
-    margin: 20px auto;
-}
+    form {
+        width: 320px;
+        position: unset;
+        margin: 20px auto;
+    }
+
     .time,
     .calendar {
         width: 100%;
