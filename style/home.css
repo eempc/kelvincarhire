@@ -17,8 +17,8 @@ main {
 
 form {
     position: absolute;
-    top: 150px;
-    left: 200px;
+    top: 10%;
+    left: 10%;
     width: 500px;
     margin: auto;
     padding: 20px;
@@ -70,23 +70,19 @@ select {
     transition: 0.5s ease-in-out;
 }
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    form {
+        left: 50%;
+        margin-left: -250px;
+        top: 50%;
+        margin-top: -170px;
+    }
+}
 
 @media (max-width: 600px) {
-    .booking-box {
-        width: 90%;
-    }
 
     .feature-box {
         width: 40%;
-    }
-
-    .circle {
-        width: 66%;
-    }
-
-    .circle-content>p {
-        text-size-adjust: 85%;
     }
 
     .background-pic {
@@ -94,7 +90,7 @@ select {
     }
 
     form {
-        width: 320px;
+        width: 80%;
         position: unset;
         margin: 20px auto;
     }
