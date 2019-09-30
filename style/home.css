@@ -8,7 +8,7 @@ main {
 }
 
 .background-pic {
-    z-index: -1;
+    z-index: 0;
     width: 100%;
 
 }
@@ -16,6 +16,7 @@ main {
 /* Form */
 
 form {
+    z-index: 1;
     position: absolute;
     top: 10%;
     left: 10%;
@@ -100,6 +101,7 @@ select {
         width: 100%;
         border-radius: 20px;
         font-size: 1.2em;
+        margin-bottom: 10px;
     }
 
     select {
