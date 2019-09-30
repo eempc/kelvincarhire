@@ -31,10 +31,15 @@ form {
     padding: 24px 0px;
 }
 
-.time,
+
 .calendar {
     width: 49%;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.time {
+    width: 49%;
+    border-radius: 0px 20px 20px 0px;
 }
 
 select {
@@ -80,11 +85,6 @@ select {
 }
 
 @media (max-width: 600px) {
-
-    .feature-box {
-        width: 40%;
-    }
-
     .background-pic {
         display: none;
     }

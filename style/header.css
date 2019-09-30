@@ -159,8 +159,9 @@ footer {
 
 footer > div {
     width: 20%;
-
+    padding: 24px;
     text-align: center;
+    margin: 24px;
 }
 
 .social-logo {
