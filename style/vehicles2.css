@@ -91,5 +91,10 @@ button {
 @media (max-width: 600px) {
     .car-image, .box-description {
         width: 100%;
+        margin: 0;
+    }
+
+    .box-vehicle {
+        margin: 6px auto;
     }
 }
