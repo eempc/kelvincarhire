@@ -13,63 +13,61 @@
 </head>
 
 <body class="background-dark-1">
-  <header class="background-dark-1" id="header">
-      <div class="left-section" href="index.html">
-          <a href="index.html">
-              <img src="images/logo.png" class="main-logo" alt="Kelvin Car Hire logo">
-          </a>
-          <h1 class="company-header text-light-blue">Kelvin Car Hire</h1>
+    <header class="background-dark-1" id="header">
+        <div class="left-section" href="index.html">
+            <a href="index.html">
+                <img src="images/logo.png" class="main-logo" alt="Kelvin Car Hire logo">
+            </a>
+            <h1 class="company-header text-light-blue">Kelvin Car Hire</h1>
+        </div>
+        <div class="right-section">
+            <div class="phone">
+                <p>&#x260F; Call us on 0141-555-5555 | <a href="contact.html" class="contact-button button-style-1">Contact</a></p>
+            </div>
+            <nav>
+                <div class="standard-nav">
+                    <div class="dropdown">
+                        <a class="nav-button text-light-blue" href="index.html">Home</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button text-light-blue">Vehicles</a>
+                        <div class="dropdown-content">
+                            <a href="cars-small.html" class="dropdown-link text-light-blue">Small Cars</a>
+                            <a href="cars-medium.html" class="dropdown-link text-light-blue">Medium Cars</a>
+                            <a href="cars-large.html" class="dropdown-link text-light-blue">Large Cars</a>
+                            <a href="vans.html" class="dropdown-link text-light-blue">Vans</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="nav-button text-light-blue current-page" href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
+            </nav>
+        </div>
+    </header>
 
-      </div>
-      <div class="right-section">
-          <div class="phone">
-              <p>&#x260F; Call us on 0141-555-5555 | <a href="contact.html" class="contact-button button-style-1">Contact</a></p>
-          </div>
-          <nav>
-              <div class="standard-nav">
-                  <div class="dropdown">
-                      <a class="nav-button text-light-blue" href="index.html">Home</a>
-                  </div>
-                  <div class="dropdown">
-                      <a class="nav-button text-light-blue">Vehicles</a>
-                      <div class="dropdown-content">
-                          <a href="cars-small.html" class="dropdown-link text-light-blue">Small Cars</a>
-                          <a href="cars-medium.html" class="dropdown-link text-light-blue">Medium Cars</a>
-                          <a href="cars-large.html" class="dropdown-link text-light-blue">Large Cars</a>
-                          <a href="vans.html" class="dropdown-link text-light-blue">Vans</a>
-                      </div>
-                  </div>
-                  <div class="dropdown">
-                      <a class="nav-button text-light-blue current-page" href="contact.html">Contact</a>
-                  </div>
-              </div>
-              <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
-          </nav>
-      </div>
-  </header>
-
-          <section class="accordion-menu hidden">
-              <ul>
-                  <li>
-                      <a href="index.html" class="accordion-link button-style-1">Home</a>
-                  </li>
-                  <li>
-                      <a href="#" class="accordion-link button-style-1">Contact</a>
-                  </li>
-                  <li>
-                      <a href="#" class="menu-toggle accordion-link button-style-1">Cars &#x25BC;</a>
-                      <ul class="submenu hidden">
-                          <li><a href="cars-small.html" class="accordion-link button-style-1">Small cars</a></li>
-                          <li><a href="cars-medium.html" class="accordion-link button-style-1">Medium cars</a></li>
-                          <li><a href="cars-large.html" class="accordion-link button-style-1">Large cars</a></li>
-                          <li><a href="vans.html" class="accordion-link button-style-1">Vans</a></li>
-                      </ul>
-                  </li>
-              </ul>
-          </section>
+    <section class="accordion-menu hidden">
+        <ul>
+            <li>
+                <a href="index.html" class="accordion-link button-style-1">Home</a>
+            </li>
+            <li>
+                <a href="#" class="accordion-link button-style-1">Contact</a>
+            </li>
+            <li>
+                <a href="#" class="menu-toggle accordion-link button-style-1">Cars &#x25BC;</a>
+                <ul class="submenu hidden">
+                    <li><a href="cars-small.html" class="accordion-link button-style-1">Small cars</a></li>
+                    <li><a href="cars-medium.html" class="accordion-link button-style-1">Medium cars</a></li>
+                    <li><a href="cars-large.html" class="accordion-link button-style-1">Large cars</a></li>
+                    <li><a href="vans.html" class="accordion-link button-style-1">Vans</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
 
     <main>
-
         <section class="form-section">
             <h4>Contact form</h4>
             <form class="" name="contact-form" action="" method="">
@@ -107,7 +105,6 @@
                 G1 1AA
             </p>
         </section>
-
     </main>
 
     <footer class="background-dark-1">
