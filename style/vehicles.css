@@ -28,7 +28,6 @@ main * {
     border: 1px dotted black;
 }
 
-
 .car-image {
     width: 33%;
     margin: 12px;
@@ -36,8 +35,6 @@ main * {
 
 button {
     text-align: center;
-
-    
     padding: 20px;
 }
 
@@ -49,14 +46,12 @@ button {
 #main-image {
     padding: 24px;
     width: 50%;
-
 }
 
 .animate-image {
     animation-name: slide-down;
     animation-duration: 1s;
     animation-delay: -0.2s;
-    
 }
 
 @keyframes slide-down {

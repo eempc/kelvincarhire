@@ -1,7 +1,3 @@
-main * {
-    outline: 0px solid yellow;
-}
-
 main {
     margin-bottom: 36px;
     max-width: 1400px;
@@ -28,7 +24,7 @@ main {
 }
 
 .box-description > div {
-color: lightblue;
+    color: lightblue;
 }
 
 .car-name {

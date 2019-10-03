@@ -17,10 +17,6 @@ form {
     align-items: flex-start;
 }
 
-h4 {
-    padding: 24px 0px;
-}
-
 form > input, textarea {
     margin: 6px 0px;
 }
@@ -49,6 +45,10 @@ button {
 form>p {
     color: red;
     font-size: 0.7em;
+}
+
+.email-link:before {
+    content: "\0040\0020";
 }
 
 @media (max-width: 992px) {
