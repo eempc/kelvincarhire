@@ -23,7 +23,7 @@ main {
     flex-direction: column;
 }
 
-.box-description > div {
+.box-description>div {
     color: lightblue;
 }
 
@@ -53,7 +53,6 @@ button {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-
 }
 
 .car-description {
@@ -61,35 +60,44 @@ button {
     margin: auto;
 }
 
-.car-features > div {
+.car-features>div {
     width: 40%;
     padding: 8px 12px;
+}
 
+.fadein {
+    animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 992px) {
-
     .car-image {
         width: 90%;
         margin: 12px 0px;
     }
-
     .car-description {
         width: 90%;
         margin: 12px;
     }
-
     .box-description {
         width: 90%
     }
 }
 
 @media (max-width: 600px) {
-    .car-image, .box-description {
+    .car-image,
+    .box-description {
         width: 100%;
         margin: 0;
     }
-
     .box-vehicle {
         margin: 6px auto;
     }

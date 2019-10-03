@@ -1,15 +1,20 @@
 /* Theme CSS deals only with: text-colour, background colours, border style */
+
 body {
     margin: 0px;
     background-color: rgb(71, 66, 66, 0.9);
 }
 
-h2, h3, h4, label, h5 {
+h2,
+h3,
+h4,
+label,
+h5 {
     color: lightblue;
 }
 
 p {
-    color:rgb(235, 235, 235);
+    color: rgb(235, 235, 235);
     margin: 0;
 }
 
@@ -21,7 +26,7 @@ h2 {
 
 h3 {
     text-align: center;
-    margin: 12px 0px;
+    margin: 10px 0px;
 }
 
 h4 {
@@ -70,8 +75,12 @@ h5 {
     background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(107, 107, 107) 100%);
 }
 
+.background-dark-2 {
+    background: linear-gradient(to right, rgb(156, 156, 156) 0%, rgb(41, 41, 41) 100%);
+}
+
 .background-style-3 {
-    background-color: rgba(15, 75, 75, 0.75);
+    background-color: rgba(15, 43, 75, 0.75);
 }
 
 .text-light-blue {
@@ -80,4 +89,10 @@ h5 {
 
 .text-white {
     color: white;
+}
+
+@media (max-width: 600px) {
+    h4 {
+        text-align: center;
+    }
 }
