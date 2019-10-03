@@ -8,18 +8,19 @@
     <title>Small Cars</title>
     <link rel="stylesheet" type="text/css" href="style/header.css">
     <link rel="stylesheet" type="text/css" href="style/darktheme.css">
-    <link rel="stylesheet" type="text/css" href="style/vehicles.css">
+    <link rel="stylesheet" type="text/css" href="style/vehicles2.css">
+    <link rel="stylesheet" href="style/animista.css">
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <script src="https://kit.fontawesome.com/f18db98727.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="body">
+<body class="background-dark-1">
     <header class="background-dark-1" id="header">
         <div class="left-section" href="index.html">
             <a href="index.html">
-                <img src="images/logo.png" class="main-logo">
+                <img src="images/logo.png" class="main-logo" alt="Kelvin Car Hire logo">
             </a>
             <h1 class="company-header text-light-blue">Kelvin Car Hire</h1>
-
         </div>
         <div class="right-section">
             <div class="phone">
@@ -30,23 +31,17 @@
                     <div class="dropdown">
                         <a class="nav-button text-light-blue" href="index.html">Home</a>
                     </div>
-                    <div class="dropdown hidden">
-                        <a class="nav-button text-light-blue" href="book.html">Book</a>
-                    </div>
                     <div class="dropdown">
                         <a class="nav-button text-light-blue current-page">Vehicles</a>
                         <div class="dropdown-content">
-                            <a href="cars-small.html" class="dropdown-link text-light-blue current-page">Small Cars</a>
-                            <a href="cars-medium.html" class="dropdown-link text-light-blue">Medium Cars</a>
+                            <a href="cars-small.html" class="dropdown-link text-light-blue">Small Cars</a>
+                            <a href="cars-medium.html" class=" current-page dropdown-link text-light-blue">Medium Cars</a>
                             <a href="cars-large.html" class="dropdown-link text-light-blue">Large Cars</a>
                             <a href="vans.html" class="dropdown-link text-light-blue">Vans</a>
                         </div>
                     </div>
                     <div class="dropdown">
                         <a class="nav-button text-light-blue" href="contact.html">Contact</a>
-                    </div>
-                    <div class="dropdown hidden">
-                        <a class="nav-button text-light-blue" href="location.html">Location</a>
                     </div>
                 </div>
                 <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
@@ -74,81 +69,88 @@
         </ul>
     </section>
 
-    <main class="background-dark-1">
-        <div class="vehicles-container">
-            <h2 class="vehicle-page-head">Compact Cars</h2>
-            <div class="vehicle-box box-style-3">
-                <img src="images/cars/aygo.jpg" class="car-image">
-                <div>
-                    <h4 class="car-name">Toyota Aygo</h4>
-                    <h5 class="car-subtitle">Compact city car</h5>
-                    <p>4 passengers, small luggage</p>
+    <h2>Small Cars</h2>
+
+    <main>
+        <div class="box-vehicle">
+            <img class="car-image fadein" src="images/cars/a2.jpg" alt="Audi A6 car">
+            <div class="box-description background-style-3">
+                <div class="car-name">Audi A2</div>
+                <div class="car-type">Compact</div>
+                <div class="car-description">Luxurious heated leather seats.</div>
+                <div class="car-features">
+                    <div><i class="fas fa-male"></i>5 seats</div>
+                    <div><i class="fas fa-suitcase"></i>40 litres boot</div>
+                    <div><i class="fas fa-chair"></i>Leather seats</div>
+                    <div><i class="fas fa-fan"></i>Air con</div>
                 </div>
-            </div>
-            <div class="vehicle-box box-style-3">
-                <img src="images/cars/robin.jpg" class="car-image">
-                <div>
-                    <h4 class="car-name">Reliant Robin</h4>
-                    <h5 class="car-subtitle">Classic fun</h5>
-                    <p>4 passengers, small luggage</p>
-                </div>
-            </div>
-            <div class="vehicle-box box-style-3">
-                <img src="images/cars/fiesta.jpg" class="car-image">
-                <div>
-                    <h4 class="car-name">Ford Fiesta</h4>
-                    <h5 class="car-subtitle">Compact</h5>
-                    <p>5 passengers, medium luggage, etc</p>
-                </div>
-            </div>
-            <div class="vehicle-box box-style-3">
-                <img src="images/cars/a2.jpg" class="car-image">
-                <div>
-                    <h4 class="car-name">Audi A2</h4>
-                    <h5 class="car-subtitle">Compact luxury</h5>
-                    <p>5 passengers, small luggage, etc</p>
-                </div>
-            </div>
-            <div class="image-container">
-                <img id="main-image" class="hidden" src="images/cars/fiesta6.jpg">
+                <button class="button-style-1 scaleup">Book</button>
             </div>
         </div>
-        <button class="hidden">Book now!</button>
+
+        <div class="box-vehicle">
+            <img class="car-image fadein" src="images/cars/robin.jpg" alt="Nissan Leaf car">
+            <div class="box-description background-style-3">
+                <div class="car-name">Reliant Robin</div>
+                <div class="car-type">Classic</div>
+                <div class="car-description">Comfort driving for the environmentally conscious.</div>
+                <div class="car-features">
+                    <div><i class="fas fa-users"></i>2 seats</div>
+                    <div><i class="fas fa-suitcase"></i>60 litres boot</div>
+                    <div><i class="fas fa-bolt"></i>3 wheels</div>
+                    <div><i class="fas fa-fan"></i>Something</div>
+                </div>
+                <button class="button-style-1 scaleup">Book</button>
+            </div>
+        </div>
+
+        <div class="box-vehicle">
+            <img class="car-image fadein" src="images/cars/clio.jpg" alt="Mazda6 car">
+            <div class="box-description background-style-3">
+                <div class="car-name">Renault Clio</div>
+                <div class="car-type">Compact hatchback</div>
+                <div class="car-description">A family saloon car for all the family. Ample space for luggage.</div>
+                <div class="car-features">
+                    <div><i class="fas fa-users"></i>5 seats</div>
+                    <div><i class="fas fa-suitcase"></i>80 litres boot</div>
+                    <div><i class="fas fa-chair"></i>Leather seats</div>
+                    <div><i class="fas fa-fan"></i>Air con</div>
+                </div>
+                <button class="button-style-1">Book</button>
+            </div>
+        </div>
     </main>
 
-    <footer class="">
-        <div class="hidden">
-            <img src="images/logo.png" class="main-logo">
-            <div class="text-light-blue">Kelvin Car Hire</div>
-        </div>
-
-        <div>
-            <h3>General enquiries:</h3>
+    <footer class="background-dark-1">
+        <div class="background-style-3 swing">
+            <h3>General enquiries</h3>
             <p>0141-555-5555</p>
-            <h3>Emergency enquiries:</h3>
+            <h3>Emergency enquiries</h3>
             <p>0141-555-5556</p>
         </div>
 
-        <div>
+        <div class="background-style-3">
             <h3>Locations</h3>
             <p>Glasgow</p>
-            <p>Edinbrugh</p>
+            <p>Edinburgh</p>
             <p>Stirling</p>
         </div>
 
-        <div>
-            <h3>Find us on:</h3>
+        <div class="background-style-3 zoomOut">
+            <h3>Find us on</h3>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                 <img src="images/Social-Networks-Facebook-icon.png" class="social-logo" alt="Facebook link icon">
             </a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                <img src="images/Social-Networks-Twitter-icon.png" class="social-logo" alt="">
+                <img src="images/Social-Networks-Twitter-icon.png" class="social-logo" alt="Twitter link icon">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/Social-Networks-Linkedin-icon.png" class="social-logo" alt="Linkedin link icon">
             </a>
         </div>
     </footer>
 
     <script src="scripts.js"></script>
-    <script src="cars.js"></script>
 </body>
 
 </html>
