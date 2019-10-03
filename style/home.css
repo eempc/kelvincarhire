@@ -60,6 +60,34 @@ select {
 }
 
 
+/* Upsell */
+
+.upsell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.upsell>h3 {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.upsell>p {
+    width: 30%;
+    padding: 0px 12px;
+    text-align: center;
+}
+
+.upsell>p:before {
+    content: "\2713\0020";
+    color: green;
+    font-weight: 900;
+}
+
+
 /* Quick links */
 
 .quick-links {
@@ -68,6 +96,7 @@ select {
     justify-content: center;
     padding: 12px;
     display: none;
+    margin-bottom: 24px;
 }
 
 .quick-links>h3 {
@@ -75,7 +104,7 @@ select {
 }
 
 .car-type-box {
-    width: 40%;
+    width: 45%;
     margin: 4px;
 }
 
@@ -90,33 +119,6 @@ select {
     z-index: 1;
     background-color: white;
     margin: 0;
-}
-
-
-/* Upsell */
-
-.upsell {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 60%;
-    margin-bottom: 24px;
-}
-
-.upsell>h3 {
-    width: 100%;
-}
-
-.upsell>p {
-    width: 30%;
-    padding: 0px 12px;
-    text-align: center;
-}
-
-.upsell>p:before {
-    content: "\2713\0020";
-    color: green;
-    font-weight: 900;
 }
 
 
@@ -169,5 +171,4 @@ select {
     .quick-links {
         display: flex;
     }
-    h3 {}
 }

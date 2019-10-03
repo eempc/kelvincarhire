@@ -39,8 +39,9 @@ input {
     padding: 5px 10px;
 }
 
-button {
+#submit-contact-form {
     align-self: center;
+    color: black;
 }
 
 form>p {
@@ -64,9 +65,8 @@ form>p {
     .contact-section {
         width: 30%;
     }
-    button {
+    #submit-contact-form {
         margin: 12px 0px;
-        transform: scale(1.5);
     }
 }
 
