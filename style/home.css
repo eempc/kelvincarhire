@@ -10,6 +10,7 @@ main {
     width: 100%;
 }
 
+
 /* Form */
 
 form {
@@ -58,6 +59,67 @@ select {
     width: 50%;
 }
 
+
+/* Quick links */
+
+.quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 12px;
+    display: none;
+}
+
+.quick-links>h3 {
+    width: 100%;
+}
+
+.car-type-box {
+    width: 40%;
+    margin: 4px;
+}
+
+.car-type-box>img {
+    width: 100%;
+}
+
+.car-type-box>p {
+    text-align: center;
+    width: 33%;
+    color: black;
+    z-index: 1;
+    background-color: white;
+    margin: 0;
+}
+
+
+/* Upsell */
+
+.upsell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.upsell>h3 {
+    width: 100%;
+}
+
+.upsell>p {
+    width: 30%;
+    padding: 0px 12px;
+    text-align: center;
+}
+
+.upsell>p:before {
+    content: "\2713\0020";
+    color: green;
+    font-weight: 900;
+}
+
+
 /* Bottom */
 
 #cookie {
@@ -85,13 +147,15 @@ select {
     .background-pic {
         display: none;
     }
-
+    .car-type-box>p,
+    .upsell>p {
+        width: 100%;
+    }
     form {
         width: 90%;
         position: unset;
         margin: 20px 12px;
     }
-
     .time,
     .calendar {
         width: 100%;
@@ -99,8 +163,11 @@ select {
         font-size: 1.2em;
         margin-bottom: 10px;
     }
-
     select {
         font-size: 1.4em;
     }
+    .quick-links {
+        display: flex;
+    }
+    h3 {}
 }

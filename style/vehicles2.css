@@ -5,15 +5,16 @@ main {
 }
 
 .box-vehicle {
-    width: 100%;
+    width: 90%;
     display: flex;
     margin: 24px auto 48px auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .car-image {
-    width: 50%;
+    width: 60%;
+    margin: auto;
 }
 
 .box-description {
@@ -81,14 +82,15 @@ button {
 @media (max-width: 992px) {
     .car-image {
         width: 90%;
-        margin: 12px 0px;
+        margin: 12px auto;
     }
     .car-description {
         width: 90%;
         margin: 12px;
     }
     .box-description {
-        width: 90%
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -96,7 +98,7 @@ button {
     .car-image,
     .box-description {
         width: 100%;
-        margin: 0;
+        margin: auto;
     }
     .box-vehicle {
         margin: 6px auto;

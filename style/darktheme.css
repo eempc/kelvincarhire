@@ -26,7 +26,8 @@ h2 {
 
 h3 {
     text-align: center;
-    margin: 10px 0px;
+    margin: 10px auto;
+    width: 90%;
 }
 
 h4 {
@@ -89,6 +90,10 @@ h5 {
 
 .text-white {
     color: white;
+}
+
+.border-bottom {
+    border-bottom: 2px solid white;
 }
 
 @media (max-width: 600px) {

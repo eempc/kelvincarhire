@@ -50,6 +50,7 @@ form>p {
 
 .email-link:before {
     content: "\0040\0020";
+    font-weight: bold;
 }
 
 @media (max-width: 992px) {

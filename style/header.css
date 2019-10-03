@@ -4,8 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .hidden {
     display: none;
 }
@@ -19,8 +17,9 @@ header {
     justify-content: center;
     padding: 0px;
     margin: 0px 0px 0px 0px;
-    border-bottom: 5px blue solid;
+    border-bottom: 5px rgb(20, 20, 175) solid;
 }
+
 
 /* left part of theader */
 
@@ -56,9 +55,10 @@ h1 {
     margin: 0px 20px;
 }
 
-.phone > * {
+.phone>* {
     font-size: 70%;
 }
+
 
 /* Navigation dropdowns */
 
@@ -70,14 +70,11 @@ h1 {
 }
 
 .nav-button {
-
     line-height: 48px;
     padding: 13px 20px;
     transition: 1s ease-in-out;
     border-bottom: 4px solid transparent;
 }
-
-
 
 .dropdown-content {
     display: none;
@@ -102,7 +99,6 @@ h1 {
     line-height: 48px;
     transition: 1s ease-in-out;
     border-bottom: 4px solid transparent;
-
 }
 
 .dropdown-link:hover {
@@ -114,6 +110,7 @@ h1 {
     border-bottom: 4px solid rgb(0, 2, 128);
     background-color: rgb(134, 134, 134, 0.2);
 }
+
 
 /* Mobile burger menu */
 
@@ -148,6 +145,7 @@ li {
     width: 100%;
 }
 
+
 /* Footer */
 
 footer {
@@ -158,7 +156,7 @@ footer {
     border-top: 5px solid blue;
 }
 
-footer > div {
+footer>div {
     width: 20%;
     padding: 24px;
     text-align: center;
@@ -174,45 +172,36 @@ footer > div {
     .left-section {
         width: 33%;
     }
-
     .right-section {
         width: 67%;
     }
 }
 
-
 @media (max-width: 600px) {
     .standard-nav {
         display: none;
     }
-
     .mobile-nav {
         display: block;
     }
-
     .left-section {
         width: 67%;
     }
-
     .right-section {
         width: 20%;
         justify-content: center;
     }
-
     .main-logo {
         margin: 5px;
         max-width: 70px;
         max-height: 70px;
     }
-
     .phone {
         display: none;
     }
-
     footer {
         padding: 20px 0px;
     }
-
     footer>div {
         width: 100%;
         padding: 12px auto 24px auto;
