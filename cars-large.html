@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Large Cars and MPVs</title>
+    <title>Large Cars</title>
     <link rel="stylesheet" type="text/css" href="style/header.css">
     <link rel="stylesheet" type="text/css" href="style/darktheme.css">
-    <link rel="stylesheet" type="text/css" href="style/vehicles.css">
+    <link rel="stylesheet" type="text/css" href="style/vehicles2.css">
+    <link rel="stylesheet" href="style/animista.css">
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <script src="https://kit.fontawesome.com/f18db98727.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="background-dark-1">
     <header class="background-dark-1" id="header">
         <div class="left-section" href="index.html">
             <a href="index.html">
-                <img src="images/logo.png" class="main-logo">
+                <img src="images/logo.png" class="main-logo" alt="Kelvin Car Hire logo">
             </a>
             <h1 class="company-header text-light-blue">Kelvin Car Hire</h1>
-
         </div>
         <div class="right-section">
             <div class="phone">
@@ -30,23 +31,17 @@
                     <div class="dropdown">
                         <a class="nav-button text-light-blue" href="index.html">Home</a>
                     </div>
-                    <div class="dropdown hidden">
-                        <a class="nav-button text-light-blue" href="book.html">Book</a>
-                    </div>
                     <div class="dropdown">
-                        <a class="nav-button text-light-blue current-page">Vehicles</a>
+                        <a class="nav-button current-page text-light-blue">Vehicles</a>
                         <div class="dropdown-content">
                             <a href="cars-small.html" class="dropdown-link text-light-blue">Small Cars</a>
                             <a href="cars-medium.html" class="dropdown-link text-light-blue">Medium Cars</a>
-                            <a href="cars-large.html" class="dropdown-link text-light-blue current-page">Large Cars</a>
+                            <a href="cars-large.html" class="dropdown-link text-light-blue">Large Cars</a>
                             <a href="vans.html" class="dropdown-link text-light-blue">Vans</a>
                         </div>
                     </div>
                     <div class="dropdown">
                         <a class="nav-button text-light-blue" href="contact.html">Contact</a>
-                    </div>
-                    <div class="dropdown hidden">
-                        <a class="nav-button text-light-blue" href="location.html">Location</a>
                     </div>
                 </div>
                 <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
@@ -60,7 +55,7 @@
                 <a href="index.html" class="accordion-link button-style-1">Home</a>
             </li>
             <li>
-                <a href="#" class="accordion-link button-style-1">Contact</a>
+                <a href="contact.html" class="accordion-link button-style-1">Contact</a>
             </li>
             <li>
                 <a href="#" class="menu-toggle accordion-link button-style-1">Cars &#x25BC;</a>
@@ -74,81 +69,87 @@
         </ul>
     </section>
 
-    <h2>Large Cars</h2>
+    <h2>Medium Cars</h2>
 
     <main>
-        <div class="vehicle-box box-style-2">
-            <h3>BMW 7-series</h3>
-            <h4>Luxury executive</h4>
-            <div class="carousel">
-                <img class="carousel-image" src="images/cars/7series.jpg">
+        <div class="box-vehicle">
+            <img class="car-image fadein" src="images/cars/smax.jpg" alt="Audi A6 car">
+            <div class="box-description background-style-3">
+                <div class="car-name">Ford S-Max</div>
+                <div class="car-type">Something</div>
+                <div class="car-description">A large saloon car for all the family. Ample space for luggage. Luxurious heated leather seats.</div>
+                <div class="car-features">
+                    <div><i class="fas fa-male"></i>5 seats</div>
+                    <div><i class="fas fa-suitcase"></i>80 litres boot</div>
+                    <div><i class="fas fa-chair"></i>Leather seats</div>
+                    <div><i class="fas fa-fan"></i>Air con</div>
+                </div>
+                <button class="button-style-1 scaleup">Book</button>
             </div>
-            <div class="car-specs-box">
-                <p class="top-left">4 doors</p>
-                <p class="top-right">Leather seats</p>
-                <p class="bottom-left">Air con</p>
-                <p class="bottom-right">5 seats</p>
-            </div>
-            <p class="price">From £20 per day</p>
-            <a href="" class="book-button">
-                <p class="button-style-2">Book!</p>
-            </a>
-        </div>
-        <div class="vehicle-box box-style-2">
-            <h3>Ford S-MAX</h3>
-            <h4>People carrier</h4>
-            <div class="carousel">
-                <img src="images/cars/smax.jpg">
-            </div>
-            <div class="car-specs-box">
-                <p class="top-left">7 seats</p>
-                <p class="top-right">Automatic</p>
-                <p class="bottom-left">Air Con</p>
-                <p class="bottom-right">Sporty</p>
-            </div>
-            <p class="price">From £30 per day</p>
-            <a href="" class="book-button">
-                <p class="button-style-2">Book!</p>
-            </a>
         </div>
 
-        <div class="vehicle-box box-style-2">
-            <h3>Audi A8</h3>
-            <h4>Luxury executive</h4>
-            <div class="carousel">
-                <img src="images/cars/a8.jpg">
+        <div class="box-vehicle">
+            <img class="car-image fadein" src="images/cars/crv.jpg" alt="Nissan Leaf car">
+            <div class="box-description background-style-3">
+                <div class="car-name">Honda CRV</div>
+                <div class="car-type">Electric Hatchback</div>
+                <div class="car-description">Comfort driving for the environmentally conscious.</div>
+                <div class="car-features">
+                    <div><i class="fas fa-users"></i>5 seats</div>
+                    <div><i class="fas fa-suitcase"></i>60 litres boot</div>
+                    <div><i class="fas fa-bolt"></i>Electric</div>
+                    <div><i class="fas fa-fan"></i>Air con</div>
+                </div>
+                <button class="button-style-1 scaleup">Book</button>
             </div>
-            <div class="car-specs-box">
-                <p class="top-left">5 seats</p>
-                <p class="top-right">Manual</p>
-                <p class="bottom-left">Air Con</p>
-                <p class="bottom-right">Leather seats</p>
-            </div>
-            <p class="price">From £40 per day</p>
-            <a href="" class="book-button">
-                <p class="button-style-2">Book!</p>
-            </a>
         </div>
 
-        <div class="vehicle-box box-style-2">
-            <h3>Honda CR-V</h3>
-            <h4>Sports utility</h4>
-            <div class="carousel">
-                <img src="images/cars/crv.jpg">
+        <div class="box-vehicle">
+            <img class="car-image fadein" src="images/cars/a8.jpg" alt="Mazda6 car">
+            <div class="box-description background-style-3">
+                <div class="car-name">Audi A8</div>
+                <div class="car-type">Family hatchback</div>
+                <div class="car-description">A family saloon car for all the family. Ample space for luggage.</div>
+                <div class="car-features">
+                    <div><i class="fas fa-users"></i>5 seats</div>
+                    <div><i class="fas fa-suitcase"></i>80 litres boot</div>
+                    <div><i class="fas fa-chair"></i>Leather seats</div>
+                    <div><i class="fas fa-fan"></i>Air con</div>
+                </div>
+                <button class="button-style-1">Book</button>
             </div>
-            <div class="car-specs-box">
-                <p class="top-left">Classic</p>
-                <p class="top-right">Manual</p>
-                <p class="bottom-left">Air Con</p>
-                <p class="bottom-right">3 wheels</p>
-            </div>
-            <p class="price">From £50 per day</p>
-            <a href="" class="book-button">
-                <p class="button-style-2">Book!</p>
-            </a>
         </div>
-
     </main>
+
+    <footer class="background-dark-1">
+        <div class="background-style-3 swing">
+            <h3>General enquiries</h3>
+            <p>0141-555-5555</p>
+            <h3>Emergency enquiries</h3>
+            <p>0141-555-5556</p>
+        </div>
+
+        <div class="background-style-3">
+            <h3>Locations</h3>
+            <p>Glasgow</p>
+            <p>Edinburgh</p>
+            <p>Stirling</p>
+        </div>
+
+        <div class="background-style-3 zoomOut">
+            <h3>Find us on</h3>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/Social-Networks-Facebook-icon.png" class="social-logo" alt="Facebook link icon">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/Social-Networks-Twitter-icon.png" class="social-logo" alt="Twitter link icon">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/Social-Networks-Linkedin-icon.png" class="social-logo" alt="Linkedin link icon">
+            </a>
+        </div>
+    </footer>
+
     <script src="scripts.js"></script>
 </body>
 
