@@ -68,6 +68,13 @@ h5 {
     box-shadow: 1px 1px 1px 1px black;
 }
 
+.border-style-1 {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 12px;
+    box-shadow: 1px 1px 1px 1px transparent;
+}
+
 .background-dark-1 {
     background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(107, 107, 107) 100%);
 }
@@ -77,7 +84,7 @@ h5 {
 }
 
 .background-style-3 {
-    background-color: rgba(15, 43, 75, 0.75);
+    background-color: rgba(26, 87, 156, 0.795);
 }
 
 .border-bottom {

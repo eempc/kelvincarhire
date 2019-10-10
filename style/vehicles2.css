@@ -92,13 +92,6 @@ button {
     transition: 1s;
 }
 
-.border-style-1 {
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 8px 12px;
-    box-shadow: 1px 1px 1px 1px transparent;
-}
-
 .top-left-corner-decal {
     width: 0;
     height: 0;
@@ -131,6 +124,6 @@ button {
         margin: auto;
     }
     .box-vehicle {
-        margin: 6px auto;
+        margin: 6px auto 18px auto;
     }
 }
