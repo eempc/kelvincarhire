@@ -51,11 +51,11 @@ h5 {
 }
 
 .button-style-1 {
-    background-color: grey;
+    background-color: rgb(177, 177, 177);
     border-radius: 5%;
     padding: 4px 6px;
-    color: white;
-    box-shadow: 1px 1px 1px black;
+    color: black;
+    box-shadow: 1px 1px black;
 }
 
 .button-style-2 {
@@ -72,7 +72,6 @@ h5 {
     border: 1px solid black;
     border-radius: 8px;
     padding: 8px 12px;
-    box-shadow: 1px 1px 1px 1px transparent;
 }
 
 .background-dark-1 {
