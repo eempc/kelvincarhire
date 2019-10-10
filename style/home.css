@@ -67,7 +67,7 @@ select {
     flex-wrap: wrap;
     justify-content: center;
     width: 60%;
-    margin-bottom: 24px;
+    margin: 24px auto;
 }
 
 .upsell>h3 {
@@ -77,8 +77,11 @@ select {
 
 .upsell>p {
     width: 30%;
-    padding: 0px 12px;
+    padding: 6px 12px;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 12px;
 }
 
 .upsell>p:before {
