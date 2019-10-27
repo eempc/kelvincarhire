@@ -18,7 +18,7 @@ header {
     justify-content: center;
     padding: 0px;
     margin: 0px 0px 0px 0px;
-    border-bottom: 5px rgb(51, 51, 51) solid;
+    border-bottom: 5px solid lightgray;
 }
 
 
@@ -154,6 +154,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-top: 3px solid lightgray;
 }
 
 footer>div {
