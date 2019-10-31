@@ -4,12 +4,6 @@ body {
     margin: 0;
 }
 
-h2,
-h3,
-h4,
-label,
-h5 {}
-
 p {
     margin: 0;
 }
@@ -38,18 +32,6 @@ h5 {
     margin: 0;
     color: white;
     font-size: 1.3em;
-}
-
-.box-style-1 {
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px grey;
-    margin: 10px 0px;
-}
-
-.box-style-2 {
-    border: 2px solid lightblue;
-    box-shadow: 1px 1px 1px grey;
-    margin: 10px 0px;
 }
 
 .button-style-1 {
