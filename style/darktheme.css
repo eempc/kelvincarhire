@@ -41,36 +41,22 @@ h5 {
     box-shadow: 1px 1px black;
 }
 
-.button-style-2 {
-    border-radius: 5%;
-    padding: 12px 24px;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: white;
-    background-color: grey;
-    box-shadow: 1px 1px 1px 1px black;
-}
-
 .border-style-1 {
     border: 1px solid black;
     border-radius: 8px;
     padding: 8px 12px;
 }
 
-.background-dark-1 {
+.background-style-1 {
     background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(107, 107, 107) 100%);
 }
 
-.background-dark-2 {
+.background-style-2 {
     background: linear-gradient(to right, rgb(156, 156, 156) 0%, rgb(41, 41, 41) 100%);
 }
 
 .background-style-3 {
     background-color: rgba(26, 87, 156, 0.795);
-}
-
-.border-bottom {
-    border-bottom: 2px solid white;
 }
 
 @media (max-width: 600px) {

@@ -73,14 +73,11 @@ main {
     width: 70%;
 }
 
-button {
+.book-button {
     width: 33%;
     align-self: center;
     justify-self: flex-end;
     margin: auto;
-}
-
-.book-button {
     background-color: grey;
     text-align: center;
     margin-top: 24px;
@@ -90,16 +87,6 @@ button {
     background-color: rgb(92, 92, 92);
     cursor: pointer;
     transition: 1s;
-}
-
-.top-left-corner-decal {
-    width: 0;
-    height: 0;
-    border-top: 30px solid black;
-    border-right: 30px solid transparent;
-    position: absolute;
-    top: 0px;
-    left: 0px;
 }
 
 @media (max-width: 992px) {

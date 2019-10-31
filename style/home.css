@@ -36,24 +36,27 @@ select {
 }
 
 .form-heading {
-    width: 99%;
+    width: 100%;
     padding: 24px 0px;
 }
 
 .calendar {
-    width: 49%;
+    width: 50%;
     border-radius: 20px 0px 0px 20px;
 }
 
 .time {
-    width: 49%;
+    width: 50%;
     border-radius: 0px 20px 20px 0px;
 }
 
 select {
-    width: 99%;
+    width: 100%;
     border-radius: 20px;
 }
+
+
+/* Icons for the form entry - browser dependent */
 
 .time::before {
     content: "\2003\1f551\2003";
@@ -70,7 +73,7 @@ select {
 }
 
 
-/* Upsell */
+/* Upsell slogans */
 
 .upsell {
     display: flex;
@@ -102,7 +105,7 @@ select {
 }
 
 
-/* Quick links */
+/* Mobile Quick links */
 
 .quick-links {
     display: flex;
@@ -136,7 +139,7 @@ select {
 }
 
 
-/* Bottom */
+/* Fake cookie */
 
 #cookie {
     text-align: center;
