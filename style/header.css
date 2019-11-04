@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    outline: 0px dotted white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hidden {
@@ -18,7 +16,8 @@ header {
     justify-content: center;
     padding: 0px;
     margin: 0px 0px 0px 0px;
-    border-bottom: 5px solid lightgray;
+    border-bottom: 5px solid rgb(158, 158, 158);
+
 }
 
 
@@ -26,7 +25,7 @@ header {
 
 h1 {
     margin: 0px;
-    text-shadow: 2px 2px grey;
+    text-shadow: 2px 2px rgb(94, 88, 88);
     text-align: center;
     font-size: 2.5em;
 }
@@ -81,6 +80,7 @@ h1 {
     display: none;
     position: absolute;
     z-index: 1;
+    margin-top: 1px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -154,7 +154,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: 3px solid lightgray;
+    border-top: 3px solid rgb(158, 158, 158);
 }
 
 footer>div {
