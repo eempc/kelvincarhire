@@ -1,6 +1,6 @@
 /* Theme CSS deals only with: text-colour, background colours, border style */
 
-* {
+p, div, a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
