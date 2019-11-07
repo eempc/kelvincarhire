@@ -17,7 +17,6 @@ header {
     padding: 0px;
     margin: 0px 0px 0px 0px;
     border-bottom: 5px solid rgb(158, 158, 158);
-
 }
 
 
@@ -98,12 +97,12 @@ h1 {
     margin: 0px 0px;
     background-color: rgb(202, 202, 202);
     line-height: 48px;
-    transition: 1s ease-in-out;
     border-bottom: 4px solid transparent;
 }
 
 .dropdown-link:hover {
     background-color: rgb(134, 134, 134);
+    transition: 1s ease-in-out;
     border-bottom: 4px solid rgb(0, 2, 128);
 }
 
