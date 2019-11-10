@@ -14,7 +14,7 @@
 
 <body class="">
     <header class="background-style-2" id="header">
-        <div class="left-section" href="index.html">
+        <div class="left-section">
             <a href="index.html">
                 <img src="images/logo.png" class="main-logo" alt="Kelvin Car Hire logo">
             </a>
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="dropdown">
-                        <a class="nav-button current-page " href="contact.html">Contact</a>
+                        <a class="nav-button current-page">Contact</a>
                     </div>
                 </div>
                 <button class="mobile-nav" onclick="burgerToggle()">&#x2630;</button>
@@ -47,13 +47,13 @@
         </div>
     </header>
 
-    <section class="accordion-menu hidden">
+    <div class="accordion-menu hidden">
         <ul>
             <li>
                 <a href="index.html" class="accordion-link button-style-1 border-style-1">Home</a>
             </li>
             <li>
-                <a href="contact.html" class="accordion-link button-style-1 border-style-1">Contact</a>
+                <a class="accordion-link button-style-1 border-style-1">Contact</a>
             </li>
             <li>
                 <a href="#" class="menu-toggle accordion-link button-style-1 border-style-1">Vehicles &#x25BC;</a>
@@ -65,7 +65,7 @@
                 </ul>
             </li>
         </ul>
-    </section>
+    </div>
 
     <main>
         <section class="form-section">
@@ -81,11 +81,11 @@
                 <input type="email" minlength="3" maxlength="255" id="emailaddress" name="email" placeholder="Email... (required)" required>
                 <p id="required-email"></p>
 
-                <textarea type="text" minlength="10" id="messagebox" name="message" placeholder="Message... (required)" required></textarea>
+                <textarea minlength="10" id="messagebox" name="message" placeholder="Message... (required)" required></textarea>
                 <p id="required-message"></p>
 
                 <!--<input type="submit" value="Submit">-->
-                <div type="button" class="border-style-1 button-style-1" id="submit-contact-form" onclick="validateFields()" value="Submit">Submit</div>
+                <button type="button" class="border-style-1 button-style-1" id="submit-contact-form" onclick="validateFields()" value="Submit">Submit</button>
             </form>
         </section>
 
